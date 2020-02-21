@@ -89,6 +89,7 @@
             <option value="$PROJECT_DIR$/ch07/hibernate-base" />
             <option value="$PROJECT_DIR$/ch07/hibernate-crud" />
             <option value="$PROJECT_DIR$/ch08" />
+            <option value="$PROJECT_DIR$/ch08/hibernate-envers" />
             <option value="$PROJECT_DIR$/ch08/jpa-criteria" />
             <option value="$PROJECT_DIR$/ch08/jpa-crud" />
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa" />

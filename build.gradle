@@ -40,6 +40,7 @@ ext {
             jpaModelGen: "org.hibernate:hibernate-jpamodelgen:$hibernateVersion",
             ehcache    : "org.hibernate:hibernate-ehcache:$hibernateVersion",
             em         : "org.hibernate:hibernate-entitymanager:$hibernateVersion",
+            envers     : "org.hibernate:hibernate-envers:$hibernateVersion",
             jpaApi     : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:$hibernateJpaVersion",
             querydslapt: "com.mysema.querydsl:querydsl-apt:2.7.1"
     ]
