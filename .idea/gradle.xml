@@ -93,6 +93,7 @@
             <option value="$PROJECT_DIR$/ch08/jpa-crud" />
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa" />
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa-alt" />
+            <option value="$PROJECT_DIR$/ch08/spring-data-jpa-audit" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

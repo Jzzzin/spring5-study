@@ -82,6 +82,8 @@ include 'ch07:hibernate-crud'
 include 'ch08:jpa-crud'
 include 'ch08:jpa-criteria'
 include 'ch08:spring-data-jpa'
+include 'ch08:spring-data-jpa-alt'
+include 'ch08:spring-data-jpa-audit'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -90,6 +92,4 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch08:spring-data-jpa-alt'
-findProject(':ch08:spring-data-jpa-alt')?.name = 'spring-data-jpa-alt'
 
