@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath boot.springBootPlugin
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile project(':ch06:plain-jdbc')
+    compile boot.starterJdbc, db.h2
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch6.Application",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

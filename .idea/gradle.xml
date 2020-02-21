@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.2-all/9fahxiiecdb76a5g3aw9oi8rv/gradle-4.10.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ch02" />
+            <option value="$PROJECT_DIR$/ch02/hello-world" />
+            <option value="$PROJECT_DIR$/ch03" />
+            <option value="$PROJECT_DIR$/ch03/bean-aliases" />
+            <option value="$PROJECT_DIR$/ch03/bean-autowiring" />
+            <option value="$PROJECT_DIR$/ch03/bean-inheritance" />
+            <option value="$PROJECT_DIR$/ch03/bean-instantiation-mode" />
+            <option value="$PROJECT_DIR$/ch03/cdi" />
+            <option value="$PROJECT_DIR$/ch03/collections" />
+            <option value="$PROJECT_DIR$/ch03/constructor-injection" />
+            <option value="$PROJECT_DIR$/ch03/dependency-pull" />
+            <option value="$PROJECT_DIR$/ch03/field-injection" />
+            <option value="$PROJECT_DIR$/ch03/injection" />
+            <option value="$PROJECT_DIR$/ch03/method-injection" />
+            <option value="$PROJECT_DIR$/ch03/method-replacement" />
+            <option value="$PROJECT_DIR$/ch03/nesting" />
+            <option value="$PROJECT_DIR$/ch03/setter-injection" />
+            <option value="$PROJECT_DIR$/ch03/simple-types" />
+            <option value="$PROJECT_DIR$/ch04" />
+            <option value="$PROJECT_DIR$/ch04/application-context-aware" />
+            <option value="$PROJECT_DIR$/ch04/bean-init-method" />
+            <option value="$PROJECT_DIR$/ch04/bean-name-aware" />
+            <option value="$PROJECT_DIR$/ch04/boot-simple" />
+            <option value="$PROJECT_DIR$/ch04/boot-web" />
+            <option value="$PROJECT_DIR$/ch04/disposable-bean" />
+            <option value="$PROJECT_DIR$/ch04/environment" />
+            <option value="$PROJECT_DIR$/ch04/events" />
+            <option value="$PROJECT_DIR$/ch04/factory-bean" />
+            <option value="$PROJECT_DIR$/ch04/factory-bean-and-factory-method-attributes" />
+            <option value="$PROJECT_DIR$/ch04/groovy-config" />
+            <option value="$PROJECT_DIR$/ch04/groovy-config-java" />
+            <option value="$PROJECT_DIR$/ch04/initializing-bean" />
+            <option value="$PROJECT_DIR$/ch04/initializing-bean-destroy" />
+            <option value="$PROJECT_DIR$/ch04/java-config" />
+            <option value="$PROJECT_DIR$/ch04/java-config-message-provider" />
+            <option value="$PROJECT_DIR$/ch04/jsr330" />
+            <option value="$PROJECT_DIR$/ch04/message-source" />
+            <option value="$PROJECT_DIR$/ch04/post-construct" />
+            <option value="$PROJECT_DIR$/ch04/post-construct-pre-destroy" />
+            <option value="$PROJECT_DIR$/ch04/profile" />
+            <option value="$PROJECT_DIR$/ch04/property-editors" />
+            <option value="$PROJECT_DIR$/ch04/property-placeholder" />
+            <option value="$PROJECT_DIR$/ch04/resource" />
+            <option value="$PROJECT_DIR$/ch04/shutdown-hook" />
+            <option value="$PROJECT_DIR$/ch05" />
+            <option value="$PROJECT_DIR$/ch05/after-returning-advice-keygen" />
+            <option value="$PROJECT_DIR$/ch05/annotation-pointcut" />
+            <option value="$PROJECT_DIR$/ch05/aop-hello-world" />
+            <option value="$PROJECT_DIR$/ch05/aop-namespace" />
+            <option value="$PROJECT_DIR$/ch05/aspectj-annotations" />
+            <option value="$PROJECT_DIR$/ch05/aspectj-aspects" />
+            <option value="$PROJECT_DIR$/ch05/aspectj-boot" />
+            <option value="$PROJECT_DIR$/ch05/aspectj-regex-pointcuts" />
+            <option value="$PROJECT_DIR$/ch05/cflow-pointcuts" />
+            <option value="$PROJECT_DIR$/ch05/cglib-performance" />
+            <option value="$PROJECT_DIR$/ch05/composable-pointcut" />
+            <option value="$PROJECT_DIR$/ch05/dynamic-pointcut" />
+            <option value="$PROJECT_DIR$/ch05/modification-introduction" />
+            <option value="$PROJECT_DIR$/ch05/proxyfactorybean" />
+            <option value="$PROJECT_DIR$/ch05/proxyfactorybean-introduction" />
+            <option value="$PROJECT_DIR$/ch05/regex-pointcuts" />
+            <option value="$PROJECT_DIR$/ch05/security" />
+            <option value="$PROJECT_DIR$/ch05/simple-after-returning-advice" />
+            <option value="$PROJECT_DIR$/ch05/simple-around-advice" />
+            <option value="$PROJECT_DIR$/ch05/simple-before-advice" />
+            <option value="$PROJECT_DIR$/ch05/simple-name-matching" />
+            <option value="$PROJECT_DIR$/ch05/simple-throws-advice" />
+            <option value="$PROJECT_DIR$/ch05/static-pointcut" />
+            <option value="$PROJECT_DIR$/ch06" />
+            <option value="$PROJECT_DIR$/ch06/plain-jdbc" />
+            <option value="$PROJECT_DIR$/ch06/spring-boot-jdbc" />
+            <option value="$PROJECT_DIR$/ch06/spring-jdbc-annotations" />
+            <option value="$PROJECT_DIR$/ch06/spring-jdbc-embedded" />
+            <option value="$PROJECT_DIR$/ch06/spring-jdbc-namedparam" />
+            <option value="$PROJECT_DIR$/ch06/spring-jdbc-resultsetextractor" />
+            <option value="$PROJECT_DIR$/ch06/spring-jdbc-rowmapper" />
+            <option value="$PROJECT_DIR$/ch07" />
+            <option value="$PROJECT_DIR$/ch07/hibernate-base" />
+            <option value="$PROJECT_DIR$/ch07/hibernate-crud" />
+            <option value="$PROJECT_DIR$/ch08" />
+            <option value="$PROJECT_DIR$/ch08/jpa-criteria" />
+            <option value="$PROJECT_DIR$/ch08/jpa-crud" />
+            <option value="$PROJECT_DIR$/ch08/spring-data-jpa" />
+            <option value="$PROJECT_DIR$/ch08/spring-data-jpa-alt" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

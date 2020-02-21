@@ -1,0 +1,22 @@
+apply plugin: 'groovy'
+
+dependencies {
+    compile misc.groovy
+    compile project(':ch03:bean-inheritance')
+}
+
+task copyGroovyFile(type: Copy) {
+    from 'src/main/resources/beans.groovy'
+    into 'bin/main'
+}
+
+assemble.dependsOn copyGroovyFile
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch4.GrrovyBeansFromJava",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

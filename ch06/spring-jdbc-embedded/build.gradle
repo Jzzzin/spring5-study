@@ -1,0 +1,12 @@
+dependencies {
+    compile project(':ch06:plain-jdbc')
+    compile db.h2, db.derby
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch6.JdbcSingerDaoDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

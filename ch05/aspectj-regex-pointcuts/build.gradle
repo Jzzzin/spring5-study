@@ -1,0 +1,14 @@
+dependencies {
+    compile project(':ch02:hello-world')
+    compile project(':ch05:aop-hello-world')
+    compile project(':ch05:regex-pointcuts')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.AspectjexpPointcutDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

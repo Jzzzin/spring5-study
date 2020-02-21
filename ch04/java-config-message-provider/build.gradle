@@ -1,0 +1,13 @@
+dependencies {
+    compile project(':ch03:constructor-injection')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch4.JavaConfigExampleOne",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

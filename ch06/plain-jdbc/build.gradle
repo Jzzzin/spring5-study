@@ -1,0 +1,11 @@
+dependencies {
+    compile db.mysql
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch6.PlainJdbcDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

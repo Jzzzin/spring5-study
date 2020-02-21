@@ -1,0 +1,11 @@
+dependencies {
+    compile project(':ch06:plain-jdbc')
+    compile db.mysql, db.dbcp2
+}
+
+jar {
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

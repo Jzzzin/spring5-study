@@ -1,0 +1,12 @@
+dependencies {
+    compile project(':ch05:simple-before-advice')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.SimpleAfterReturningAdvice",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

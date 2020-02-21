@@ -1,0 +1,12 @@
+dependencies {
+    compile project(':ch02:hello-world')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.ProxyFactoryBeanDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

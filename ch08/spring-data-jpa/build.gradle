@@ -1,0 +1,11 @@
+dependencies {
+    compile spring.data, misc.guava
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch8.SpringJPADemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

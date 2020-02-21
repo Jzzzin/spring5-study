@@ -1,0 +1,24 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath boot.springBootPlugin
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile boot.starterAop
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.Application",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

@@ -1,0 +1,14 @@
+dependencies {
+    compile project(':ch02:hello-world')
+    compile project(':ch05:aop-hello-world')
+    compile project(':ch05:simple-name-matching')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.ComposablePointcutDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

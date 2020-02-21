@@ -1,0 +1,15 @@
+apply plugin: 'groovy'
+
+dependencies {
+    compile misc.groovy
+    compile project(':ch03:bean-inheritance')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch4.GroovyConfig",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

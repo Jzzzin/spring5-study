@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- UnsatisfiedDependencyException을 발생시키려면 실행 시 primary 애트리뷰트를 제거하기 바랍니다. -->
+    <bean id="fooOne" class="ch3.xml.complicated.FooImpl1" primary="true"/>
+    <bean id="fooTwo" class="ch3.xml.complicated.FooImpl2"/>
+
+    <bean id="bar" class="ch3.xml.Bar"/>
+    <bean id="targetByType" autowire="byType" class="ch3.xml.complicated.CTarget" lazy-init="true"/>
+
+</beans>

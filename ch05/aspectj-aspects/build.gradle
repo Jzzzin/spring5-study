@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.eveoh.nl/content/repositories/releases" }
+    }
+
+    dependencies {
+        classpath "nl.eveoh:gradle-aspectj:2.0"
+    }
+}
+
+apply plugin: 'aspectj'
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.AspectJDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

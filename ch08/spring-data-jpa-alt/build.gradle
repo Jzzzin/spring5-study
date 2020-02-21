@@ -1,0 +1,10 @@
+dependencies {
+    compile spring.data, misc.guava
+}
+
+jar {
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath boot.springBootPlugin
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+
+dependencies {
+    compile boot.starterWeb, boot.actuator
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch4.WebApplication",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

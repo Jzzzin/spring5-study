@@ -1,0 +1,8 @@
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch4.Singer",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

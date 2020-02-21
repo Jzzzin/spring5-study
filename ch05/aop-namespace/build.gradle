@@ -1,0 +1,13 @@
+dependencies {
+    compile project(':ch02:hello-world')
+    compile project(':ch05:proxyfactorybean')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.AopNamespaceDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}

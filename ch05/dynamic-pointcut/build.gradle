@@ -1,0 +1,12 @@
+dependencies {
+    compile project(':ch05:aop-hello-world')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class" : "ch5.DynamicPintcutDemo",
+                "Class-Path" : configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
+}
