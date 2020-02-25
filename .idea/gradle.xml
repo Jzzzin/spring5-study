@@ -3,9 +3,11 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.2-all/9fahxiiecdb76a5g3aw9oi8rv/gradle-4.10.2" />
+        <option name="gradleHome" value="C:/Gradle/gradle-4.10.2" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -89,6 +91,7 @@
             <option value="$PROJECT_DIR$/ch07/hibernate-base" />
             <option value="$PROJECT_DIR$/ch07/hibernate-crud" />
             <option value="$PROJECT_DIR$/ch08" />
+            <option value="$PROJECT_DIR$/ch08/boot-jpa" />
             <option value="$PROJECT_DIR$/ch08/hibernate-envers" />
             <option value="$PROJECT_DIR$/ch08/jpa-criteria" />
             <option value="$PROJECT_DIR$/ch08/jpa-crud" />
