@@ -88,6 +88,8 @@ include 'ch08:hibernate-envers'
 include 'ch08:boot-jpa'
 
 include 'ch09:base-dao'
+include 'ch09:transactions-annotation'
+include 'ch09:transactions-xml'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -96,8 +98,3 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch09:transactions-annotation'
-findProject(':ch09:transactions-annotation')?.name = 'transactions-annotation'
-include 'ch09:transactions-xml'
-findProject(':ch09:transactions-xml')?.name = 'transactions-xml'
-
