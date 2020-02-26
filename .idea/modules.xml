@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-aspects/aspectj-aspects.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-aspects/aspectj-aspects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" />
@@ -30,6 +31,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/ch06.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/ch06.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch07/ch07.iml" filepath="$PROJECT_DIR$/.idea/modules/ch07/ch07.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/ch08.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/ch08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -90,6 +92,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-rowmapper/spring-jdbc-rowmapper.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-rowmapper/spring-jdbc-rowmapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-study.iml" filepath="$PROJECT_DIR$/spring-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-xml.iml" />
     </modules>
   </component>
 </project>

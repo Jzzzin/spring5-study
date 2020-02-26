@@ -1,0 +1,11 @@
+dependencies {
+    compile project(':ch09:base-dao')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch9.TxDeclarativeDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

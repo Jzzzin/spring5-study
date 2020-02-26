@@ -21,6 +21,7 @@ ext {
     hibernateVersion = '5.3.9.Final'
     hibernateJpaVersion = '1.0.2.Final'
     hibernateValidatorVersion = '6.0.16.Final' //6.0.0.Beta2
+    atomikosVersion = '4.0.4'
 
     // 테스트 라이브러리
     junitVersion = '4.12'
@@ -28,6 +29,7 @@ ext {
     spring = [
             context         : "org.springframework:spring-context:$springVersion",
             aspects           : "org.springframework:spring-aspects:$springVersion",
+            tx                : "org.springframework:spring-tx:$springVersion",
             jdbc              : "org.springframework:spring-jdbc:$springVersion",
             contextSupport    : "org.springframework:spring-context-support:$springVersion",
             orm               : "org.springframework:spring-orm:$springVersion",
@@ -42,7 +44,8 @@ ext {
             em         : "org.hibernate:hibernate-entitymanager:$hibernateVersion",
             envers     : "org.hibernate:hibernate-envers:$hibernateVersion",
             jpaApi     : "org.hibernate.javax.persistence:hibernate-jpa-2.1-api:$hibernateJpaVersion",
-            querydslapt: "com.mysema.querydsl:querydsl-apt:2.7.1"
+            querydslapt: "com.mysema.querydsl:querydsl-apt:2.7.1",
+            tx         : "com.atomikos:transactions-hibernate4:$atomikosVersion"
     ]
 
     boot = [

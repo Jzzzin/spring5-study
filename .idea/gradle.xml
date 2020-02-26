@@ -98,6 +98,10 @@
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa" />
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa-alt" />
             <option value="$PROJECT_DIR$/ch08/spring-data-jpa-audit" />
+            <option value="$PROJECT_DIR$/ch09" />
+            <option value="$PROJECT_DIR$/ch09/base-dao" />
+            <option value="$PROJECT_DIR$/ch09/transactions-annotation" />
+            <option value="$PROJECT_DIR$/ch09/transactions-xml" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

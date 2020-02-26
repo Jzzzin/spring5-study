@@ -1,5 +1,5 @@
 subprojects {
-    group 'spring-study.ch08'
+    group 'spring-study.ch09'
     apply plugin: 'java'
 
     /*Task that copies all the dependencies under build/libs */
@@ -16,7 +16,8 @@ subprojects {
                 exclude module: 'spring-beans'
                 exclude module: 'spring-core'
             }
-            compile spring.orm, spring.context, misc.slf4jJcl, misc.logback, db.h2, misc.lang3, hibernate.em, hibernate.jpaApi
+            compile misc.slf4jJcl, misc.logback, db.h2, misc.lang3, hibernate.em, misc.aspectjweaver,
+                    spring.data, misc.guava
         }
         testCompile testing.junit
     }
