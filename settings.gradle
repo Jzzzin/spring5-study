@@ -90,6 +90,7 @@ include 'ch08:boot-jpa'
 include 'ch09:base-dao'
 include 'ch09:transactions-annotation'
 include 'ch09:transactions-xml'
+include 'ch09:transactions-programmatic'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->

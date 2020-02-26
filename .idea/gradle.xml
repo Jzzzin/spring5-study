@@ -101,6 +101,7 @@
             <option value="$PROJECT_DIR$/ch09" />
             <option value="$PROJECT_DIR$/ch09/base-dao" />
             <option value="$PROJECT_DIR$/ch09/transactions-annotation" />
+            <option value="$PROJECT_DIR$/ch09/transactions-programmatic" />
             <option value="$PROJECT_DIR$/ch09/transactions-xml" />
           </set>
         </option>
