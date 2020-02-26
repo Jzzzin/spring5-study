@@ -93,6 +93,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-study.iml" filepath="$PROJECT_DIR$/spring-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-xml.iml" />
     </modules>
