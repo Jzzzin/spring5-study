@@ -97,6 +97,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-resultsetextractor/spring-jdbc-resultsetextractor.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-resultsetextractor/spring-jdbc-resultsetextractor.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-rowmapper/spring-jdbc-rowmapper.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-rowmapper/spring-jdbc-rowmapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-study.iml" filepath="$PROJECT_DIR$/spring-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-validator.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-validator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/static-pointcut/static-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-jta.iml" />
