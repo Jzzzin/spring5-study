@@ -107,6 +107,7 @@
             <option value="$PROJECT_DIR$/ch09/transactions-xml" />
             <option value="$PROJECT_DIR$/ch10" />
             <option value="$PROJECT_DIR$/ch10/converter" />
+            <option value="$PROJECT_DIR$/ch10/converter-multiple-types" />
             <option value="$PROJECT_DIR$/ch10/property-editor" />
           </set>
         </option>
