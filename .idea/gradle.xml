@@ -105,6 +105,9 @@
             <option value="$PROJECT_DIR$/ch09/transactions-jta" />
             <option value="$PROJECT_DIR$/ch09/transactions-programmatic" />
             <option value="$PROJECT_DIR$/ch09/transactions-xml" />
+            <option value="$PROJECT_DIR$/ch10" />
+            <option value="$PROJECT_DIR$/ch10/converter" />
+            <option value="$PROJECT_DIR$/ch10/property-editor" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

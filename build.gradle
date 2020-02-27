@@ -16,6 +16,10 @@ ext {
     dbcpVersion = '2.1'
     mysqlVersion = '8.0.11' // mysql 버전 6.0.6 에서 수정해야 됨
     h2Version = '1.4.194'
+    jodaVersion = '2.10.1'
+    javaxValidationVersion = '2.0.1.Final'
+    javaElVersion = '3.0.1-b04'
+    glasshfishELVersion = '2.2.1-b05'
     artemisVersion = '2.6.4'
 
     // 퍼시스턴스 라이브러리
@@ -71,10 +75,12 @@ ext {
             logback        : "ch.qos.logback:logback-classic:$logbackVersion",
             groovy         : "org.codehaus.groovy:groovy-all:$groovyVersion",
             inject         : "javax.inject:javax.inject:1",
+            validation     : "javax.validation:validation-api:$javaxValidationVersion",
             aspectjweaver  : "org.aspectj:aspectjweaver:$aspectjVersion",
             aspectjrt      : "org.aspectj:aspectjrt:$aspectjVersion",
             lang3          : "org.apache.commons:commons-lang3:3.5",
             guava          : "com.google.guava:guava:$guavaVersion",
+            joda           : "joda-time:joda-time:$jodaVersion",
             artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion"
     ]
 
