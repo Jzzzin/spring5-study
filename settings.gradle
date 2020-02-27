@@ -97,6 +97,7 @@ include 'ch09:boot-jta'
 include 'ch10:property-editor'
 include 'ch10:converter'
 include 'ch10:converter-multiple-types'
+include 'ch10:custom-formatter'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
