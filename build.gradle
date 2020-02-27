@@ -16,6 +16,7 @@ ext {
     dbcpVersion = '2.1'
     mysqlVersion = '8.0.11' // mysql 버전 6.0.6 에서 수정해야 됨
     h2Version = '1.4.194'
+    artemisVersion = '2.6.4'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -56,7 +57,9 @@ ext {
             starterTest     : "org.springframework.boot:spring-boot-starter-test:$bootVersion",
             starterAop      : "org.springframework.boot:spring-boot-starter-aop:$bootVersion",
             starterJdbc     : "org.springframework.boot:spring-boot-starter-jdbc:$bootVersion",
-            starterJpa      : "org.springframework.boot:spring-boot-starter-data-jpa:$bootVersion"
+            starterJpa      : "org.springframework.boot:spring-boot-starter-data-jpa:$bootVersion",
+            starterJta      : "org.springframework.boot:spring-boot-starter-jta-atomikos:$bootVersion",
+            starterJms      : "org.springframework.boot:spring-boot-starter-artemis:$bootVersion"
     ]
 
     testing = [
@@ -71,7 +74,8 @@ ext {
             aspectjweaver  : "org.aspectj:aspectjweaver:$aspectjVersion",
             aspectjrt      : "org.aspectj:aspectjrt:$aspectjVersion",
             lang3          : "org.apache.commons:commons-lang3:3.5",
-            guava          : "com.google.guava:guava:$guavaVersion"
+            guava          : "com.google.guava:guava:$guavaVersion",
+            artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion"
     ]
 
     db = [

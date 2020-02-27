@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-instantiation-mode/bean-instantiation-mode.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-instantiation-mode/bean-instantiation-mode.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/bean-name-aware/bean-name-aware.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/bean-name-aware/bean-name-aware.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/boot-simple/boot-simple.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/boot-simple/boot-simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/boot-web/boot-web.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/boot-web/boot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/cdi/cdi.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/cdi/cdi.iml" />

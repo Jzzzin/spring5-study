@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.activemq:artemis-jdbc-store:2.6.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jdbc-store/2.6.4/433d8a149051b9ecb9315bfe035d63ff61e6d314/artemis-jdbc-store-2.6.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/artemis-jdbc-store/2.6.4/1b09e6b22813b28aa24b6849b66a9eae3a40a287/artemis-jdbc-store-2.6.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
