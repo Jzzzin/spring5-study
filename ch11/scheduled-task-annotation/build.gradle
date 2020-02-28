@@ -1,0 +1,11 @@
+dependencies {
+    compile project(':ch11:base-task')
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch11.ScheduleTaskAnnotationDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

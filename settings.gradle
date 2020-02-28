@@ -113,3 +113,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'ch11:scheduled-task-annotation'
+findProject(':ch11:scheduled-task-annotation')?.name = 'scheduled-task-annotation'
+
