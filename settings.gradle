@@ -109,6 +109,8 @@ include 'ch11:scheduled-task-annotation'
 include 'ch11:async-task'
 include 'ch11:task-executor'
 
+include 'ch12:base-remote'
+
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"

@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/async-task.iml" filepath="$PROJECT_DIR$/.idea/modules/async-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch12/base-remote/base-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/ch12/base-remote/base-remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" />
@@ -37,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch10.iml" filepath="$PROJECT_DIR$/.idea/modules/ch10.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch11.iml" filepath="$PROJECT_DIR$/.idea/modules/ch11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch12.iml" filepath="$PROJECT_DIR$/.idea/modules/ch12.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
