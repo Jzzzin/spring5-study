@@ -81,7 +81,9 @@ ext {
             lang3          : "org.apache.commons:commons-lang3:3.5",
             guava          : "com.google.guava:guava:$guavaVersion",
             joda           : "joda-time:joda-time:$jodaVersion",
-            artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion"
+            artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion",
+            javaEl         : "javax.el:javax.el-api:$javaElVersion",
+            glassfishEl    : "org.glassfish.web:el-impl:$glasshfishELVersion"
     ]
 
     db = [

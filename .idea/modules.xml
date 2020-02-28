@@ -62,6 +62,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/jsr330/jsr330.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/jsr330/jsr330.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsr349.iml" filepath="$PROJECT_DIR$/.idea/modules/jsr349.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/message-source/message-source.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/message-source/message-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" />
