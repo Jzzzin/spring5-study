@@ -101,6 +101,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-audit/spring-data-jpa-audit.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-audit/spring-data-jpa-audit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-invoker.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-invoker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-annotations/spring-jdbc-annotations.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-annotations/spring-jdbc-annotations.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-embedded/spring-jdbc-embedded.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-embedded/spring-jdbc-embedded.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-namedparam/spring-jdbc-namedparam.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-jdbc-namedparam/spring-jdbc-namedparam.iml" />

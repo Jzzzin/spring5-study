@@ -1,0 +1,70 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring-study.ch12 : remoting.war (exploded)">
+    <output-path>$PROJECT_DIR$/ch12/spring-invoker/build/libs/exploded/remoting.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpDbGFzcy1QYXRoOiBiYXNlLXJlbW90ZS0xLjAtU05BUFNIT1QuamFyIHNwcmluZy1jb250ZXh0LXN1cHBvcnQtNS4xLjguDQogUkVMRUFTRS5qYXIgamNsLW92ZXItc2xmNGotMS43LjI1LmphciBsb2diYWNrLWNsYXNzaWMtMS4yLjMuamFyIGNvbW1vDQogbnMtbGFuZzMtMy41LmphciBoaWJlcm5hdGUtZW50aXR5bWFuYWdlci01LjMuOS5GaW5hbC5qYXIgZ3VhdmEtMjEuMC5qDQogYXIgc3ByaW5nLXdlYm12Yy01LjEuOC5SRUxFQVNFLmphciBqYXZhZWUtd2ViLWFwaS04LjAuamFyIHlhc3Nvbi0xLjAuDQogNC5qYXIgc3ByaW5nLWRhdGEtanBhLTIuMS41LlJFTEVBU0UuamFyIHNwcmluZy1jb250ZXh0LTUuMS44LlJFTEVBU0UuDQogamFyIHNwcmluZy1kYXRhLWNvbW1vbnMtMi4xLjUuUkVMRUFTRS5qYXIgc2xmNGotYXBpLTEuNy4yNS5qYXIgbG9nYmFjDQogay1jb3JlLTEuMi4zLmphciBoaWJlcm5hdGUtY29yZS01LjMuOS5GaW5hbC5qYXIgaGliZXJuYXRlLWNvbW1vbnMtYW5uDQogb3RhdGlvbnMtNS4wLjQuRmluYWwuamFyIGhpYmVybmF0ZS12YWxpZGF0b3ItNi4wLjE2LkZpbmFsLmphciBqYm9zcy1sDQogb2dnaW5nLTMuMy4yLkZpbmFsLmphciBkb200ai0yLjEuMS5qYXIgamF2YXgucGVyc2lzdGVuY2UtYXBpLTIuMi5qYXIgDQogYnl0ZS1idWRkeS0xLjkuNS5qYXIgamJvc3MtdHJhbnNhY3Rpb24tYXBpXzEuMl9zcGVjLTEuMS4xLkZpbmFsLmphciBoDQogMi0xLjQuMTk0LmphciBzcHJpbmctYW9wLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy13ZWItNS4xLjguUkVMRUFTRS5qDQogYXIgc3ByaW5nLW9ybS01LjEuNS5SRUxFQVNFLmphciBzcHJpbmctamRiYy01LjEuNS5SRUxFQVNFLmphciBzcHJpbmctDQogdHgtNS4xLjUuUkVMRUFTRS5qYXIgc3ByaW5nLWJlYW5zLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy1leHByZXNzaW9uDQogLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy1jb3JlLTUuMS44LlJFTEVBU0UuamFyIGpha2FydGEuanNvbi5iaW5kLWFwDQogaS0xLjAuMS5qYXIgamFrYXJ0YS5qc29uLWFwaS0xLjEuNS5qYXIgamFrYXJ0YS5qc29uLTEuMS41LW1vZHVsZS5qYXIgDQogamF2YXNzaXN0LTMuMjMuMS1HQS5qYXIgYW50bHItMi43LjcuamFyIGphbmRleC0yLjAuNS5GaW5hbC5qYXIgY2xhc3NtDQogYXRlLTEuMy40LmphciBqYXZheC5hY3RpdmF0aW9uLWFwaS0xLjIuMC5qYXIgdmFsaWRhdGlvbi1hcGktMi4wLjEuRmluDQogYWwuamFyIGFzcGVjdGpydC0xLjkuMi5qYXIgc3ByaW5nLWpjbC01LjEuOC5SRUxFQVNFLmphcg0KDQo=</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ch12/spring-invoker/build/libs/exploded/remoting.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-invoker/web/Web Gradle : remoting.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-invoker" />
+          <element id="dir-copy" path="$PROJECT_DIR$/ch12/spring-invoker/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="spring-study.ch12-base-remote-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="base-remote" />
+            <element id="dir-copy" path="$PROJECT_DIR$/ch12/base-remote/out/production/resources" />
+          </element>
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.5" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.3.9.Final" />
+          <element id="library" level="project" name="Gradle: com.google.guava:guava:21.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.194" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.3.9.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.16.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Gradle: org.dom4j:dom4j:2.1.1" />
+          <element id="library" level="project" name="Gradle: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.9.5" />
+          <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.9.2" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.23.1-GA" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.5.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Gradle: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax:javaee-web-api:8.0" />
+          <element id="library" level="project" name="Gradle: org.eclipse:yasson:1.0.4" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: jakarta.json.bind:jakarta.json.bind-api:1.0.1" />
+          <element id="library" level="project" name="Gradle: jakarta.json:jakarta.json-api:1.1.5" />
+          <element id="library" level="project" name="Gradle: org.glassfish:jakarta.json:1.1.5:module" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
