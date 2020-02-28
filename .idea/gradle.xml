@@ -115,6 +115,7 @@
             <option value="$PROJECT_DIR$/ch10/property-editor" />
             <option value="$PROJECT_DIR$/ch10/spring-validator" />
             <option value="$PROJECT_DIR$/ch11" />
+            <option value="$PROJECT_DIR$/ch11/async-task" />
             <option value="$PROJECT_DIR$/ch11/base-task" />
             <option value="$PROJECT_DIR$/ch11/scheduled-task" />
             <option value="$PROJECT_DIR$/ch11/scheduled-task-annotation" />

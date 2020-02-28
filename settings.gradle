@@ -115,4 +115,6 @@ rootProject.children.each { project ->
 }
 include 'ch11:scheduled-task-annotation'
 findProject(':ch11:scheduled-task-annotation')?.name = 'scheduled-task-annotation'
+include 'ch11:async-task'
+findProject(':ch11:async-task')?.name = 'async-task'
 

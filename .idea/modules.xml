@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-aspects/aspectj-aspects.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-aspects/aspectj-aspects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/async-task.iml" filepath="$PROJECT_DIR$/.idea/modules/async-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
