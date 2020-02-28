@@ -119,6 +119,7 @@
             <option value="$PROJECT_DIR$/ch11/base-task" />
             <option value="$PROJECT_DIR$/ch11/scheduled-task" />
             <option value="$PROJECT_DIR$/ch11/scheduled-task-annotation" />
+            <option value="$PROJECT_DIR$/ch11/task-executor" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -105,6 +105,9 @@ include 'ch10:jsr349-assertTrue'
 
 include 'ch11:base-task'
 include 'ch11:scheduled-task'
+include 'ch11:scheduled-task-annotation'
+include 'ch11:async-task'
+include 'ch11:task-executor'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -113,8 +116,3 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch11:scheduled-task-annotation'
-findProject(':ch11:scheduled-task-annotation')?.name = 'scheduled-task-annotation'
-include 'ch11:async-task'
-findProject(':ch11:async-task')?.name = 'async-task'
-
