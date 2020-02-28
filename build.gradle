@@ -17,6 +17,7 @@ ext {
     mysqlVersion = '8.0.11' // mysql 버전 6.0.6 에서 수정해야 됨
     h2Version = '1.4.194'
     jodaVersion = '2.10.1'
+    utVersion = '6.0.1.GA'
     javaxValidationVersion = '2.0.1.Final'
     javaElVersion = '3.0.1-b04'
     glasshfishELVersion = '2.2.1-b05'
@@ -81,6 +82,7 @@ ext {
             lang3          : "org.apache.commons:commons-lang3:3.5",
             guava          : "com.google.guava:guava:$guavaVersion",
             joda           : "joda-time:joda-time:$jodaVersion",
+            usertype       : "org.jadira.usertype:usertype.core:$utVersion",
             artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion",
             javaEl         : "javax.el:javax.el-api:$javaElVersion",
             glassfishEl    : "org.glassfish.web:el-impl:$glasshfishELVersion"

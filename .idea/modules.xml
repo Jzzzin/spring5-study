@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-boot/aspectj-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aspectj-regex-pointcuts/aspectj-regex-pointcuts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" />
@@ -34,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/ch08.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/ch08.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/ch09.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch10.iml" filepath="$PROJECT_DIR$/.idea/modules/ch10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch11.iml" filepath="$PROJECT_DIR$/.idea/modules/ch11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -81,6 +83,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/proxyfactorybean-introduction/proxyfactorybean-introduction.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/proxyfactorybean-introduction/proxyfactorybean-introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/regex-pointcuts/regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/regex-pointcuts/regex-pointcuts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/resource/resource.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduled-task.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduled-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/setter-injection/setter-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/setter-injection/setter-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/shutdown-hook/shutdown-hook.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/shutdown-hook/shutdown-hook.iml" />
