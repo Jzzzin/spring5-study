@@ -100,6 +100,8 @@ include 'ch10:converter-multiple-types'
 include 'ch10:custom-formatter'
 include 'ch10:spring-validator'
 include 'ch10:jsr349'
+include 'ch10:jsr349-custom'
+include 'ch10:jsr349-assertTrue'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -108,6 +110,3 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch10:jsr349-custom'
-findProject(':ch10:jsr349-custom')?.name = 'jsr349-custom'
-
