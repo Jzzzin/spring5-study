@@ -35,7 +35,7 @@ ext {
     junitVersion = '4.12'
 
     spring = [
-            context         : "org.springframework:spring-context:$springVersion",
+            context           : "org.springframework:spring-context:$springVersion",
             webmvc            : "org.springframework:spring-webmvc:$springVersion",
             aspects           : "org.springframework:spring-aspects:$springVersion",
             tx                : "org.springframework:spring-tx:$springVersion",
@@ -43,7 +43,7 @@ ext {
             contextSupport    : "org.springframework:spring-context-support:$springVersion",
             orm               : "org.springframework:spring-orm:$springVersion",
             data              : "org.springframework.data:spring-data-jpa:$springDataVersion",
-            test            : "org.springframework:spring-test:$springVersion",
+            test              : "org.springframework:spring-test:$springVersion",
             jms               : "org.springframework:spring-jms:$springVersion",
     ]
 
@@ -91,6 +91,7 @@ ext {
             javaEl         : "javax.el:javax.el-api:$javaElVersion",
             glassfishEl    : "org.glassfish.web:el-impl:$glasshfishELVersion",
             jms            : "javax.jms:javax.jms-api:$jmsVersion",
+            artemisClient  : "org.apache.activemq:artemis-jms-client:$artemisVersion",
             hornetq        : "org.hornetq:hornetq-jms-client:$hornetqVersion",
             yasson         : "org.eclipse:yasson:1.0.4"
     ]

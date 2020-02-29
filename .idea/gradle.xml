@@ -122,6 +122,7 @@
             <option value="$PROJECT_DIR$/ch11/task-executor" />
             <option value="$PROJECT_DIR$/ch12" />
             <option value="$PROJECT_DIR$/ch12/base-remote" />
+            <option value="$PROJECT_DIR$/ch12/jms-artemis" />
             <option value="$PROJECT_DIR$/ch12/jms-hornetq" />
             <option value="$PROJECT_DIR$/ch12/spring-invoker" />
           </set>

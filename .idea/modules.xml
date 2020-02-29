@@ -64,6 +64,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/injection/injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/injection/injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/java-config/java-config.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/java-config/java-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jms-artemis.iml" filepath="$PROJECT_DIR$/.idea/modules/jms-artemis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jms-hornetq.iml" filepath="$PROJECT_DIR$/.idea/modules/jms-hornetq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" />

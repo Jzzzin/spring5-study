@@ -112,6 +112,7 @@ include 'ch11:task-executor'
 include 'ch12:base-remote'
 include 'ch12:spring-invoker'
 include 'ch12:jms-hornetq'
+include 'ch12:jms-artemis'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
