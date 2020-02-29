@@ -21,7 +21,9 @@ ext {
     javaxValidationVersion = '2.0.1.Final'
     javaElVersion = '3.0.1-b04'
     glasshfishELVersion = '2.2.1-b05'
+    jmsVersion = '2.0'
     artemisVersion = '2.6.4'
+    hornetqVersion = '2.4.0.Final'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -41,7 +43,8 @@ ext {
             contextSupport    : "org.springframework:spring-context-support:$springVersion",
             orm               : "org.springframework:spring-orm:$springVersion",
             data              : "org.springframework.data:spring-data-jpa:$springDataVersion",
-            test            : "org.springframework:spring-test:$springVersion"
+            test            : "org.springframework:spring-test:$springVersion",
+            jms               : "org.springframework:spring-jms:$springVersion",
     ]
 
     hibernate = [
@@ -87,6 +90,8 @@ ext {
             artemis        : "org.apache.activemq:artemis-jms-server:$artemisVersion",
             javaEl         : "javax.el:javax.el-api:$javaElVersion",
             glassfishEl    : "org.glassfish.web:el-impl:$glasshfishELVersion",
+            jms            : "javax.jms:javax.jms-api:$jmsVersion",
+            hornetq        : "org.hornetq:hornetq-jms-client:$hornetqVersion",
             yasson         : "org.eclipse:yasson:1.0.4"
     ]
 

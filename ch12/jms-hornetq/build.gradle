@@ -1,0 +1,13 @@
+dependencies {
+    compile spring.jms, misc.jms, misc.hornetq
+
+    testCompile spring.test
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch12.JmsHornetQDemo",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}
