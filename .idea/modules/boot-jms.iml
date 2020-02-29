@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":ch12:boot-jms" external.linked.project.path="$MODULE_DIR$/../../ch12/boot-jms" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="spring-study.ch12" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../ch12/boot-jms/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../ch12/boot-jms/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../ch12/boot-jms">
+      <sourceFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch12/boot-jms/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-artemis:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-jms-server:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jms:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-service-extensions:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-jms-client:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: javax.jms:javax.jms-api:2.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: javax.json:javax.json-api:1.1.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-server:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-jdbc-store:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-journal:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-core-client:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-selector:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-commons:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:artemis-native:2.6.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jms_2.0_spec:1.0-alpha-2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.geronimo.specs:geronimo-json_1.0_spec:1.0-alpha-1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:2.1.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.23" level="project" />
+    <orderEntry type="library" name="Gradle: org.jgroups:jgroups:3.6.13.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.johnzon:johnzon-core:0.9.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.24.Final:linux-x86_64" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.24.Final:osx-x86_64" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.24.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.jboss.logmanager:jboss-logmanager:2.0.3.Final" level="project" />
+    <orderEntry type="library" name="Gradle: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Gradle: commons-io:commons-io:2.6" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.11.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.26" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.11.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+  </component>
+</module>
