@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-study.ch12 : rest.war">
+    <output-path>$PROJECT_DIR$/ch12/rest/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="rest.war">
+      <element id="artifact" artifact-name="Gradle : spring-study.ch12 : rest.war (exploded)" />
+    </root>
+  </artifact>
+</component>

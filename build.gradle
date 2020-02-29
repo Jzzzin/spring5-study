@@ -24,6 +24,9 @@ ext {
     jmsVersion = '2.0'
     artemisVersion = '2.6.4'
     hornetqVersion = '2.4.0.Final'
+    castorVersion = '1.4.1'
+    jacksonVersion = '2.9.0'
+    httpclientVersion = '4.5.3'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -45,6 +48,7 @@ ext {
             data              : "org.springframework.data:spring-data-jpa:$springDataVersion",
             test              : "org.springframework:spring-test:$springVersion",
             jms               : "org.springframework:spring-jms:$springVersion",
+            oxm               : "org.springframework:spring-oxm:$springVersion",
     ]
 
     hibernate = [
@@ -94,11 +98,14 @@ ext {
             artemisClient  : "org.apache.activemq:artemis-jms-client:$artemisVersion",
             artemisServer  : "org.apache.activemq:artemis-jms-server:$artemisVersion",
             hornetq        : "org.hornetq:hornetq-jms-client:$hornetqVersion",
+            castor         : "org.codehaus.castor:castor-xml:$castorVersion",
+            jacksonDatabind: "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
             yasson         : "org.eclipse:yasson:1.0.4"
     ]
 
     web = [
             servlet      : "javax:javaee-web-api:8.0",
+            httpclient   : "org.apache.httpcomponents:httpclient:$httpclientVersion",
     ]
 
     db = [

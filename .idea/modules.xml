@@ -89,6 +89,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/proxyfactorybean-introduction/proxyfactorybean-introduction.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/proxyfactorybean-introduction/proxyfactorybean-introduction.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/regex-pointcuts/regex-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/regex-pointcuts/regex-pointcuts.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/resource/resource.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduled-task.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduled-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduled-task-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduled-task-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" />

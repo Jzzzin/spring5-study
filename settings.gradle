@@ -123,4 +123,6 @@ rootProject.children.each { project ->
 }
 include 'ch12:boot-jms'
 findProject(':ch12:boot-jms')?.name = 'boot-jms'
+include 'ch12:rest'
+findProject(':ch12:rest')?.name = 'rest'
 

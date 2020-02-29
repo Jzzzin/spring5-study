@@ -1,0 +1,15 @@
+apply plugin: 'war'
+
+dependencies {
+    compile project(':ch12:base-remote')
+    compile spring.oxm, spring.webmvc, web.servlet, misc.castor, misc.jacksonDatabind, web.httpclient
+    testCompile spring.test
+}
+
+war {
+    archiveName = 'rest.war'
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}
