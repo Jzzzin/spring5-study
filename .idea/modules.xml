@@ -92,6 +92,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduled-task.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduled-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheduled-task-annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/scheduled-task-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/secure-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/secure-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/setter-injection/setter-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/setter-injection/setter-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/shutdown-hook/shutdown-hook.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/shutdown-hook/shutdown-hook.iml" />

@@ -126,6 +126,7 @@
             <option value="$PROJECT_DIR$/ch12/jms-artemis" />
             <option value="$PROJECT_DIR$/ch12/jms-hornetq" />
             <option value="$PROJECT_DIR$/ch12/rest" />
+            <option value="$PROJECT_DIR$/ch12/secure-rest" />
             <option value="$PROJECT_DIR$/ch12/spring-invoker" />
           </set>
         </option>
