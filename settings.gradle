@@ -116,6 +116,8 @@ include 'ch12:jms-artemis'
 include 'ch12:boot-jms'
 include 'ch12:rest'
 include 'ch12:secure-rest'
+include 'ch12:boot-rest'
+include 'ch12:amqp-rpc'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -124,6 +126,3 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch12:boot-rest'
-findProject(':ch12:boot-rest')?.name = 'boot-rest'
-

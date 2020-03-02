@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/after-returning-advice-keygen/after-returning-advice-keygen.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/after-returning-advice-keygen/after-returning-advice-keygen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/amqp-rpc.iml" filepath="$PROJECT_DIR$/.idea/modules/amqp-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/annotation-pointcut/annotation-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/annotation-pointcut/annotation-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aop-hello-world/aop-hello-world.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aop-hello-world/aop-hello-world.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/aop-namespace/aop-namespace.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/aop-namespace/aop-namespace.iml" />

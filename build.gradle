@@ -3,6 +3,7 @@ ext {
     springVersion = '5.1.8.RELEASE'
     bootVersion = '2.1.6.RELEASE'
     springDataVersion = '2.1.5.RELEASE'
+    springAmqpVersion = '2.1.0.RELEASE'
     springSecurityVersion = '5.1.4.RELEASE'
 
     // 로그 라이브러리
@@ -52,6 +53,7 @@ ext {
             oxm               : "org.springframework:spring-oxm:$springVersion",
             securityWeb       : "org.springframework.security:spring-security-web:$springSecurityVersion",
             securityConfig    : "org.springframework.security:spring-security-config:$springSecurityVersion",
+            rabbit            : "org.springframework.amqp:spring-rabbit:$springAmqpVersion",
     ]
 
     hibernate = [

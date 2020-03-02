@@ -121,6 +121,7 @@
             <option value="$PROJECT_DIR$/ch11/scheduled-task-annotation" />
             <option value="$PROJECT_DIR$/ch11/task-executor" />
             <option value="$PROJECT_DIR$/ch12" />
+            <option value="$PROJECT_DIR$/ch12/amqp-rpc" />
             <option value="$PROJECT_DIR$/ch12/base-remote" />
             <option value="$PROJECT_DIR$/ch12/boot-jms" />
             <option value="$PROJECT_DIR$/ch12/boot-rest" />
