@@ -123,6 +123,7 @@
             <option value="$PROJECT_DIR$/ch12" />
             <option value="$PROJECT_DIR$/ch12/amqp-rpc" />
             <option value="$PROJECT_DIR$/ch12/base-remote" />
+            <option value="$PROJECT_DIR$/ch12/boot-amqp" />
             <option value="$PROJECT_DIR$/ch12/boot-jms" />
             <option value="$PROJECT_DIR$/ch12/boot-rest" />
             <option value="$PROJECT_DIR$/ch12/jms-artemis" />

@@ -118,6 +118,7 @@ include 'ch12:rest'
 include 'ch12:secure-rest'
 include 'ch12:boot-rest'
 include 'ch12:amqp-rpc'
+include 'ch12:boot-amqp'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
