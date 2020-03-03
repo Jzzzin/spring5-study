@@ -135,3 +135,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'ch14:groovy-spring'
+findProject(':ch14:groovy-spring')?.name = 'groovy-spring'
+
