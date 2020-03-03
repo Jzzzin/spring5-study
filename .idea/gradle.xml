@@ -133,6 +133,7 @@
             <option value="$PROJECT_DIR$/ch12/spring-invoker" />
             <option value="$PROJECT_DIR$/ch13" />
             <option value="$PROJECT_DIR$/ch13/base-test" />
+            <option value="$PROJECT_DIR$/ch13/integration-test" />
             <option value="$PROJECT_DIR$/ch13/mvc-unit-test" />
           </set>
         </option>

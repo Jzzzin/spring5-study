@@ -68,6 +68,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/initializing-bean/initializing-bean.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/initializing-bean/initializing-bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/initializing-bean-destroy/initializing-bean-destroy.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/initializing-bean-destroy/initializing-bean-destroy.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/injection/injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/injection/injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/integration-test.iml" filepath="$PROJECT_DIR$/.idea/modules/integration-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/java-config/java-config.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/java-config/java-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jms-artemis.iml" filepath="$PROJECT_DIR$/.idea/modules/jms-artemis.iml" />

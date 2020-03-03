@@ -1,5 +1,7 @@
 dependencies {
-    compile spring.data, db.h2, hibernate.em
+    compile project(':ch13:base-test')
+    compile  misc.poi,
+            hibernate.validator, misc.validation, misc.javaEl, misc.glassfishEl
 }
 
 jar {
