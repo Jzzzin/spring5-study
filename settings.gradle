@@ -127,6 +127,9 @@ include 'ch13:junit5-test'
 
 include 'ch14:script-engines'
 include 'ch14:base-groovy'
+include 'ch14:groovy-spring'
+
+include 'ch15:jmx'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -135,6 +138,4 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch14:groovy-spring'
-findProject(':ch14:groovy-spring')?.name = 'groovy-spring'
 

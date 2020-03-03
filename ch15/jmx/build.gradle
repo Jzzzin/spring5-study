@@ -1,0 +1,14 @@
+apply plugin: 'war'
+
+dependencies {
+    compile project(':ch12:base-remote')
+}
+
+war {
+    archiveName = 'jmx.war'
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}
+

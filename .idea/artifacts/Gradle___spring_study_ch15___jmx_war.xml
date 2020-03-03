@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-study.ch15 : jmx.war">
+    <output-path>$PROJECT_DIR$/ch15/jmx/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="jmx.war">
+      <element id="artifact" artifact-name="Gradle : spring-study.ch15 : jmx.war (exploded)" />
+    </root>
+  </artifact>
+</component>

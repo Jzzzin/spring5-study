@@ -47,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch12.iml" filepath="$PROJECT_DIR$/.idea/modules/ch12.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch13.iml" filepath="$PROJECT_DIR$/.idea/modules/ch13.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch14.iml" filepath="$PROJECT_DIR$/.idea/modules/ch14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch15.iml" filepath="$PROJECT_DIR$/.idea/modules/ch15.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -76,6 +77,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/java-config-message-provider/java-config-message-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jms-artemis.iml" filepath="$PROJECT_DIR$/.idea/modules/jms-artemis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jms-hornetq.iml" filepath="$PROJECT_DIR$/.idea/modules/jms-hornetq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jmx.iml" filepath="$PROJECT_DIR$/.idea/modules/jmx.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-criteria/jpa-criteria.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/jpa-crud/jpa-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/jsr330/jsr330.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/jsr330/jsr330.iml" />
