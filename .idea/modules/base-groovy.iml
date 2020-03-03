@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":ch14:base-groovy" external.linked.project.path="$MODULE_DIR$/../../ch14/base-groovy" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="spring-study.ch14" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../ch14/base-groovy/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../ch14/base-groovy/out/test/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../ch14/base-groovy">
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/main/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/test/groovy" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../ch14/base-groovy/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-webmvc:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-all:2.4.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-web:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:5.1.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:5.1.8.RELEASE" level="project" />
+  </component>
+</module>

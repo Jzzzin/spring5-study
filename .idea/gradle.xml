@@ -137,6 +137,7 @@
             <option value="$PROJECT_DIR$/ch13/junit5-test" />
             <option value="$PROJECT_DIR$/ch13/mvc-unit-test" />
             <option value="$PROJECT_DIR$/ch14" />
+            <option value="$PROJECT_DIR$/ch14/base-groovy" />
             <option value="$PROJECT_DIR$/ch14/script-engines" />
           </set>
         </option>

@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+
+dependencies{
+    compile misc.groovy
+}
+
+jar {
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

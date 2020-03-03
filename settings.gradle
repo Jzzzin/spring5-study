@@ -126,6 +126,7 @@ include 'ch13:integration-test'
 include 'ch13:junit5-test'
 
 include 'ch14:script-engines'
+include 'ch14:base-groovy'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
