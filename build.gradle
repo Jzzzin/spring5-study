@@ -41,6 +41,7 @@ ext {
     mockitoVersion = '2.0.2-beta'
     junitVersion = '4.12'
     dbunitVersion = '2.5.3'
+    junit5Version = '5.4.0'
 
     spring = [
             context           : "org.springframework:spring-context:$springVersion",
@@ -86,6 +87,7 @@ ext {
 
     testing = [
             junit       : "junit:junit:$junitVersion",
+            junit5Engine: "org.junit.jupiter:junit-jupiter-engine:$junit5Version",
             mockito     : "org.mockito:mockito-all:$mockitoVersion",
             jmock       : "org.jmock:jmock:2.8.2",
             dbunit      : "org.dbunit:dbunit:$dbunitVersion"

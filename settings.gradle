@@ -123,6 +123,7 @@ include 'ch12:boot-amqp'
 include 'ch13:mvc-unit-test'
 include 'ch13:base-test'
 include 'ch13:integration-test'
+include 'ch13:junit5-test'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->

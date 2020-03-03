@@ -79,6 +79,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsr349.iml" filepath="$PROJECT_DIR$/.idea/modules/jsr349.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsr349-assertTrue.iml" filepath="$PROJECT_DIR$/.idea/modules/jsr349-assertTrue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jsr349-custom.iml" filepath="$PROJECT_DIR$/.idea/modules/jsr349-custom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/junit5-test.iml" filepath="$PROJECT_DIR$/.idea/modules/junit5-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/message-source/message-source.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/message-source/message-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" />
