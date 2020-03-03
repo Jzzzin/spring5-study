@@ -37,7 +37,9 @@ ext {
     atomikosVersion = '4.0.4'
 
     // 테스트 라이브러리
+    mockitoVersion = '2.0.2-beta'
     junitVersion = '4.12'
+    dbunitVersion = '2.5.3'
 
     spring = [
             context           : "org.springframework:spring-context:$springVersion",
@@ -82,7 +84,10 @@ ext {
     ]
 
     testing = [
-            junit           : "junit:junit:$junitVersion"
+            junit       : "junit:junit:$junitVersion",
+            mockito     : "org.mockito:mockito-all:$mockitoVersion",
+            jmock       : "org.jmock:jmock:2.8.2",
+            dbunit      : "org.dbunit:dbunit:$dbunitVersion"
     ]
 
     misc = [

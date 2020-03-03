@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" filepath="$PROJECT_DIR$/.idea/modules/ch09/base-dao/base-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch12/base-remote/base-remote.iml" filepath="$PROJECT_DIR$/.idea/modules/ch12/base-remote/base-remote.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" />
@@ -43,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch10.iml" filepath="$PROJECT_DIR$/.idea/modules/ch10.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch11.iml" filepath="$PROJECT_DIR$/.idea/modules/ch11.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch12.iml" filepath="$PROJECT_DIR$/.idea/modules/ch12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch13.iml" filepath="$PROJECT_DIR$/.idea/modules/ch13.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -80,6 +82,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-injection/method-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/method-replacement/method-replacement.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/modification-introduction/modification-introduction.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/modification-introduction/modification-introduction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvc-unit-test.iml" filepath="$PROJECT_DIR$/.idea/modules/mvc-unit-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/nesting/nesting.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/nesting/nesting.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/plain-jdbc/plain-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/plain-jdbc/plain-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/post-construct/post-construct.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/post-construct/post-construct.iml" />

@@ -131,6 +131,9 @@
             <option value="$PROJECT_DIR$/ch12/rest" />
             <option value="$PROJECT_DIR$/ch12/secure-rest" />
             <option value="$PROJECT_DIR$/ch12/spring-invoker" />
+            <option value="$PROJECT_DIR$/ch13" />
+            <option value="$PROJECT_DIR$/ch13/base-test" />
+            <option value="$PROJECT_DIR$/ch13/mvc-unit-test" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
