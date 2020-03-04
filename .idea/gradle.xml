@@ -141,6 +141,7 @@
             <option value="$PROJECT_DIR$/ch14/groovy-spring" />
             <option value="$PROJECT_DIR$/ch14/script-engines" />
             <option value="$PROJECT_DIR$/ch15" />
+            <option value="$PROJECT_DIR$/ch15/boot-jmx" />
             <option value="$PROJECT_DIR$/ch15/jmx" />
           </set>
         </option>

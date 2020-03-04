@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/bean-name-aware/bean-name-aware.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/bean-name-aware/bean-name-aware.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-amqp.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jms.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jmx.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jmx.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-rest.iml" />

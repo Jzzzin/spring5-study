@@ -138,4 +138,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'ch15:boot-jmx'
+findProject(':ch15:boot-jmx')?.name = 'boot-jmx'
 
