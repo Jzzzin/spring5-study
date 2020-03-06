@@ -1,0 +1,10 @@
+apply plugin: 'war'
+
+war {
+    archiveName = 'singer-webapp-xml.war'
+    manifest {
+        attributes(
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}
+

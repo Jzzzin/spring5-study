@@ -130,6 +130,10 @@ include 'ch14:base-groovy'
 include 'ch14:groovy-spring'
 
 include 'ch15:jmx'
+include 'ch15:boot-jmx'
+
+include 'ch16:singer-webapp-xml'
+include 'ch16:singer-webapp-jcfg'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -138,6 +142,4 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch15:boot-jmx'
-findProject(':ch15:boot-jmx')?.name = 'boot-jmx'
 

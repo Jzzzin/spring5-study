@@ -49,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch13.iml" filepath="$PROJECT_DIR$/.idea/modules/ch13.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch14.iml" filepath="$PROJECT_DIR$/.idea/modules/ch14.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch15.iml" filepath="$PROJECT_DIR$/.idea/modules/ch15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch16.iml" filepath="$PROJECT_DIR$/.idea/modules/ch16.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -117,6 +118,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/simple-name-matching/simple-name-matching.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/simple-name-matching/simple-name-matching.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/simple-throws-advice/simple-throws-advice.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/simple-throws-advice/simple-throws-advice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/simple-types/simple-types.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/simple-types/simple-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" />

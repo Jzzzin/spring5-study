@@ -48,7 +48,7 @@ public class ServiceConfig {
     @Bean
     public EntityManagerFactory entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-        factoryBean.setPackagesToScan("ch13.entities");
+        factoryBean.setPackagesToScan("ch13.ch16");
         factoryBean.setDataSource(dataSource);
         factoryBean.setJpaProperties(hibernateProperties());
         factoryBean.setJpaVendorAdapter(jpaVendorAdapter());

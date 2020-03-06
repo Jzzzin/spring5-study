@@ -1,11 +1,11 @@
 <mapping>
-    <class name="ch12.entities.Singers">
-        <field name="singers" type="ch12.entities.Singer" collection="arraylist">
+    <class name="ch12.ch16.Singers">
+        <field name="singers" type="ch12.ch16.Singer" collection="arraylist">
             <bind-xml name="singer"/>
         </field>
     </class>
 
-    <class name="ch12.entities.Singer" identity="id">
+    <class name="ch12.ch16.Singer" identity="id">
         <map-to xml="singer"/>
 
         <field name="id" type="long">

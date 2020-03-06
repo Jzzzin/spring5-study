@@ -99,7 +99,7 @@ public class XAJpaConfig {
     @Bean
     public EntityManagerFactory emfA() {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-        factoryBean.setPackagesToScan("ch9.entities");
+        factoryBean.setPackagesToScan("ch9.ch16");
         factoryBean.setDataSource(dataSourceA());
         factoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         factoryBean.setJpaProperties(hibernateProperties());
@@ -111,7 +111,7 @@ public class XAJpaConfig {
     @Bean
     public EntityManagerFactory emfB() {
         LocalContainerEntityManagerFactoryBean factoryBean = new LocalContainerEntityManagerFactoryBean();
-        factoryBean.setPackagesToScan("ch9.entities");
+        factoryBean.setPackagesToScan("ch9.ch16");
         factoryBean.setDataSource(dataSourceB());
         factoryBean.setJpaVendorAdapter(new HibernateJpaVendorAdapter());
         factoryBean.setJpaProperties(hibernateProperties());

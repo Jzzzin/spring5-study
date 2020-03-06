@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-study.ch16 : singer-webapp-jcfg.war">
+    <output-path>$PROJECT_DIR$/ch16/singer-webapp-jcfg/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="singer-webapp-jcfg.war">
+      <element id="artifact" artifact-name="Gradle : spring-study.ch16 : singer-webapp-jcfg.war (exploded)" />
+    </root>
+  </artifact>
+</component>

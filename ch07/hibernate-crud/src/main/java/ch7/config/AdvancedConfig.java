@@ -74,7 +74,7 @@ public class AdvancedConfig {
     @Bean
     public SessionFactory sessionFactory() {
         return new LocalSessionFactoryBuilder(dataSource())
-                .scanPackages("ch7.entities")
+                .scanPackages("ch7.ch16")
                 .addProperties(hibernateProperties())
                 .buildSessionFactory();
     }

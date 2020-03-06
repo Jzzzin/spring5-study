@@ -30,6 +30,7 @@ ext {
     jacksonVersion = '2.9.0'
     httpclientVersion = '4.5.3'
     poiVersion = '3.16'
+    tilesVersion = '3.0.7'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -57,6 +58,7 @@ ext {
             oxm               : "org.springframework:spring-oxm:$springVersion",
             securityWeb       : "org.springframework.security:spring-security-web:$springSecurityVersion",
             securityConfig    : "org.springframework.security:spring-security-config:$springSecurityVersion",
+            securityTaglibs   : "org.springframework.security:spring-security-taglibs:$springSecurityVersion",
             rabbit            : "org.springframework.amqp:spring-rabbit:$springAmqpVersion",
     ]
 
@@ -115,10 +117,13 @@ ext {
             castor         : "org.codehaus.castor:castor-xml:$castorVersion",
             jacksonDatabind: "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion",
             poi            : "org.apache.poi:poi:$poiVersion",
+            io             : "commons-io:commons-io:2.5",
             yasson         : "org.eclipse:yasson:1.0.4"
     ]
 
     web = [
+            tiles        : "org.apache.tiles:tiles-jsp:$tilesVersion",
+            jstl         : "jstl:jstl:1.2",
             httpclient   : "org.apache.httpcomponents:httpclient:$httpclientVersion",
             servlet      : "javax:javaee-web-api:8.0",
     ]

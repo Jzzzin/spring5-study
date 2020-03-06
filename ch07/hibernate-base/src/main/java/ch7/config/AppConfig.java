@@ -51,7 +51,7 @@ public class AppConfig {
     public SessionFactory sessionFactory() throws IOException {
         LocalSessionFactoryBean sessionFactoryBean = new LocalSessionFactoryBean();
         sessionFactoryBean.setDataSource(dataSource());
-        sessionFactoryBean.setPackagesToScan("ch7.entities");
+        sessionFactoryBean.setPackagesToScan("ch7.ch16");
         sessionFactoryBean.setHibernateProperties(hibernateProperties());
         sessionFactoryBean.afterPropertiesSet();
         return sessionFactoryBean.getObject();

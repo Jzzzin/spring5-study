@@ -1,0 +1,27 @@
+.success{
+    color: #69A150;
+    font-size: 1.2em;
+    font-family: 'helvetica', Georgia, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.info {
+    color: #5C7CA0;
+    font-size: 1.2em;
+    font-family: 'helvetica', Georgia, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.warn {
+    color: #BF9E1B;
+    font-size: 1.2em;
+    font-family: 'helvetica', Georgia, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.error {
+    color: #AD5E5C;
+    font-size: 1.2em;
+    font-family: 'helvetica', Georgia, Arial, sans-serif;
+    font-weight: bold;
+}
