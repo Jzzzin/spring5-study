@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/security
+        http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <!-- WebConfig 구성 클래스 + SecurityConfig 구성 클래스 -->
+
+    <!-- @EnableGlobalMethodSecurity(prePostEnabled = true) -->
+    <security:global-method-security pre-post-annotations="enabled"/>
+
+    <!-- @ComponentScan(basePackages = {"ch16"}) -->
+    <context:component-scan base-package="ch16"/>
+
+    <!-- 인터셉터 추가 -->
+    <!-- public void addInterceptors(InterceptorRegistry registry) -->
+    <mvc:interceptors>
+        <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
+              p:paramName="lang"/>
+        <bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor"/>
+    </mvc:interceptors>
+
+    <!-- 파일업로드 구성 -->
+    <!-- StandardServletMultipartResolver multipartResolver() -->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.support.StandardServletMultipartResolver"/>
+
+    <!-- validator 구성 -->
+    <!-- public Validator validator() -->
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="validationMessageSource" ref="messageSource"/>
+    </bean>
+
+    <!-- tiles 구성 -->
+    <!-- UrlBasedViewResolver tilesViewsResolver() -->
+    <bean id="tilesViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView"/>
+    </bean>
+
+    <!-- TilesConfigurer tilesConfigurer() -->
+    <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+        <property name="definitions">
+            <list>
+                <value>/WEB-INF/layouts/layouts.xml</value>
+                <value>/WEB-INF/views/**/views.xml</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 테마 처리 -->
+    <!-- ResourceBundleThemeSource themeSource() -->
+    <bean id="themeSource" class="org.springframework.ui.context.support.ResourceBundleThemeSource"/>
+
+    <!-- CookieThemeResolver themeResolver() -->
+    <bean id="themeResolver" class="org.springframework.web.servlet.theme.CookieThemeResolver"
+          p:cookieName="theme"
+          p:defaultThemeName="standard"/>
+
+    <!-- 국제화 처리 -->
+    <!-- ReloadableResourceBundleMessageSource messageSource() -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource"
+          p:basenames="WEB-INF/i18n/messages,WEB-INF/i18n/application"
+          p:fallbackToSystemLocale="false"/>
+
+    <!-- CookieLocaleResolver localeResolver() -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver"
+          p:cookieName="locale"/>
+
+    <!-- 정적 리소스 선언 -->
+    <!-- public void addResourceHandlers(ResourceHandlerRegistry registry) -->
+    <mvc:resources mapping="/resources/**" location="/"/>
+
+    <!-- public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) -->
+    <mvc:default-servlet-handler/>
+
+    <!-- view 처리 기본 뷰-->
+<!--InternalResourceViewResolver viewResolver()
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jspx"/>
+        <property name="requestContextAttribute" value="requestContext"/>
+    </bean>
+-->
+
+    <!-- Date 포맷 변환 -->
+    <!-- public void addFormatters(FormatterRegistry registry) -->
+    <bean id="typeConversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <property name="formatters">
+            <util:set>
+                <bean class="ch16.util.DateFormatter"/>
+            </util:set>
+        </property>
+    </bean>
+
+    <!-- Defines basic MVC defaults (handler adapter, mapping, date formatting, etc) -->
+    <!-- @Controller annotation 을 사용하려면 mvc:annotation-driven 을 활성화해야 함 -->
+    <!-- @EnableWebMvc -->
+    <mvc:annotation-driven conversion-service="typeConversionService" validator="validator"/>
+
+    <mvc:view-controller path="/" view-name="singers/list"/>
+
+</beans>

@@ -2,7 +2,7 @@
 <module external.linked.project.id=":ch16:singer-webapp-xml" external.linked.project.path="$MODULE_DIR$/../../ch16/singer-webapp-xml" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="spring-study.ch16" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration process_explicitly_annotated="false" />
     </facet>
     <facet type="web" name="Web Gradle : singer-webapp-xml.war">
       <configuration>

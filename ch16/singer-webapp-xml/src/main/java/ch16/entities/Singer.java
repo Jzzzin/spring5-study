@@ -1,7 +1,8 @@
 package ch16.entities;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 import java.text.SimpleDateFormat;
@@ -21,16 +22,17 @@ public class Singer implements Serializable {
     @Column(name = "VERSION")
     private int version;
 
-    @NotEmpty(message = "{validation.firstName.NotEmpty.message}")
+    @NotBlank(message = "{validation.firstName.NotBlank.message}")
     @Size(min = 3, max = 60, message = "{validation.firstName.Size.message}")
     @Column(name = "FIRST_NAME")
     private String firstName;
 
-    @NotEmpty(message = "{validation.lastName.NotEmpty.message}")
+    @NotBlank(message = "{validation.lastName.NotBlank.message}")
     @Size(min = 1, max = 40, message = "{validation.lastName.Size.message}")
     @Column(name = "LAST_NAME")
     private String lastName;
 
+    @NotNull
     @Temporal(TemporalType.DATE)
     @Column(name = "BIRTH_DATE")
     private Date birthDate;

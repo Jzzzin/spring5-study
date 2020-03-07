@@ -28,6 +28,9 @@ import java.util.Locale;
 @ComponentScan(basePackages = {"ch16"})
 public class WebConfig implements WebMvcConfigurer {
 
+    // servlet-context xml 구성 파일
+
+    // <=> <mvc:interceptors>
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(localeChangeInterceptor());
@@ -64,7 +67,7 @@ public class WebConfig implements WebMvcConfigurer {
         return validator();
     }
 
-    // typeConversionService 처리
+    // <=> <mvc:annotation-driven conversion-service="typeConversionService"/> 처리
     @Override
     public void addFormatters(FormatterRegistry registry) {
         registry.addFormatter(dateFormatter());
@@ -138,6 +141,7 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     /*  view 처리 // 기본 뷰
+    // <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     @Bean
     InternalResourceViewResolver viewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -155,6 +159,7 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     // 정적 리소스 선언. 자바 구성 정보에 캐시를 추가했지만 필수는 아님
+    // <mvc:resources mapping="/resources/**" location="/"/>
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations("/")

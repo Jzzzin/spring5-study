@@ -18,6 +18,7 @@ import org.springframework.security.web.csrf.HttpSessionCsrfTokenRepository;
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+    // security-context xml 구성 파일
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) {
         try {

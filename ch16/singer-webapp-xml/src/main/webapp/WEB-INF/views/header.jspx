@@ -1,0 +1,28 @@
+<div id="header" xmlns:jsp="http://java.sun.com/JSP/Page"
+     xmlns:spring="http://www.springframework.org/tags"
+     xmlns:sec="http://www.springframework.org/security/tags"
+     version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+
+    <spring:message code="header_text" var="headerText"/>
+    <spring:message code="label_logout" var="labelLogout"/>
+    <spring:message code="label_welcome" var="labelWelcome"/>
+    <spring:url value="/logout" var="loggoutUrl"/>
+
+    <div id="appname">
+        <h1>${headerText}</h1>
+    </div>
+
+    <div id="userinfo">
+        <sec:authorize access="isAuthenticated()">${labelWelcome}
+            <sec:authentication property="principal.username"/>
+            <br/>
+            <!-- csrf 토큰 사용을 위하여 form을 사용하고 토큰 정보 hidden 타입으로 넘김 -->
+            <form action="${loggoutUrl}" method="post">
+                <input type="submit" value="${labelLogout}"/>
+                <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+            </form>
+        </sec:authorize>
+    </div>
+</div>
