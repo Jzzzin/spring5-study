@@ -136,6 +136,8 @@ include 'ch16:singer-webapp-xml'
 include 'ch16:singer-webapp-jcfg'
 include 'ch16:singer-webapp-boot'
 
+include 'ch17:websocket-api'
+
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
@@ -143,3 +145,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'ch17:websocket-api-cfg'
+findProject(':ch17:websocket-api-cfg')?.name = 'websocket-api-cfg'
+

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.tomcat:tomcat-websocket-api:9.0.0.M22">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-websocket-api/9.0.0.M22/de077550443fd0dce38f2f7d409367756969556d/tomcat-websocket-api-9.0.0.M22.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-websocket-api/9.0.0.M22/aa0476d6e6e5616b67fb6639074eb85733c5d634/tomcat-websocket-api-9.0.0.M22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

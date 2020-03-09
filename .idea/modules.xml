@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch14.iml" filepath="$PROJECT_DIR$/.idea/modules/ch14.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch15.iml" filepath="$PROJECT_DIR$/.idea/modules/ch15.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch16.iml" filepath="$PROJECT_DIR$/.idea/modules/ch16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch17.iml" filepath="$PROJECT_DIR$/.idea/modules/ch17.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/composable-pointcut/composable-pointcut.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/constructor-injection/constructor-injection.iml" />
@@ -139,6 +140,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" />
     </modules>
   </component>
 </project>

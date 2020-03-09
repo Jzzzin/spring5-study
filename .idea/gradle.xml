@@ -147,6 +147,9 @@
             <option value="$PROJECT_DIR$/ch16/singer-webapp-boot" />
             <option value="$PROJECT_DIR$/ch16/singer-webapp-jcfg" />
             <option value="$PROJECT_DIR$/ch16/singer-webapp-xml" />
+            <option value="$PROJECT_DIR$/ch17" />
+            <option value="$PROJECT_DIR$/ch17/websocket-api" />
+            <option value="$PROJECT_DIR$/ch17/websocket-api-cfg" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -36,6 +36,7 @@ ext {
     // thymeleaf-extras-springsecurity5 버전에 대응
     thymeSecurityVersion = '3.0.4.RELEASE'
     jQueryVersion = '3.2.1'
+    twsVersion = '9.0.0.M22'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -66,6 +67,8 @@ ext {
             securityTaglibs   : "org.springframework.security:spring-security-taglibs:$springSecurityVersion",
             rabbit            : "org.springframework.amqp:spring-rabbit:$springAmqpVersion",
             springSecurityTest: "org.springframework.security:spring-security-test:$springSecurityVersion",
+            webSocket         : "org.springframework:spring-websocket:$springVersion",
+            messaging         : "org.springframework:spring-messaging:$springVersion",
     ]
 
     hibernate = [
@@ -137,7 +140,10 @@ ext {
 //            thymeSecurity: "org.thymeleaf.extras:thymeleaf-extras-springsecurity4:$thymeSecurityVersion",
             // SpringSecurity5 버전에 대응
             thymeSecurity: "org.thymeleaf.extras:thymeleaf-extras-springsecurity5:$thymeSecurityVersion",
+            tomcatWsApi  : "org.apache.tomcat:tomcat-websocket-api:$twsVersion",
+            tomcatWsEmbed: "org.apache.tomcat.embed:tomcat-embed-websocket:$twsVersion",
             httpclient   : "org.apache.httpcomponents:httpclient:$httpclientVersion",
+            websocket    : "javax.websocket:javax.websocket-api:1.1",
             servlet      : "javax:javaee-web-api:8.0",
     ]
 

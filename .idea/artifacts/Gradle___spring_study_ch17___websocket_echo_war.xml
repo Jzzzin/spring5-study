@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-study.ch17 : websocket-echo.war">
+    <output-path>$PROJECT_DIR$/ch17/websocket-api/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="websocket-echo.war">
+      <element id="artifact" artifact-name="Gradle : spring-study.ch17 : websocket-echo.war (exploded)" />
+    </root>
+  </artifact>
+</component>
