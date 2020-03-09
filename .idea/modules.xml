@@ -118,6 +118,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/simple-name-matching/simple-name-matching.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/simple-name-matching/simple-name-matching.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/simple-throws-advice/simple-throws-advice.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/simple-throws-advice/simple-throws-advice.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/simple-types/simple-types.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/simple-types/simple-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" />

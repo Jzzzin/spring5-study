@@ -6,6 +6,9 @@
     </facet>
     <facet type="web" name="Web Gradle : singer-webapp-xml.war">
       <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../ch16/singer-webapp-xml/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
         <webroots>
           <root url="file://C:\Workspace\spring-study\ch16\singer-webapp-xml\src\main\webapp" relative="/" />
         </webroots>

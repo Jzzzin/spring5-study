@@ -31,6 +31,11 @@ ext {
     httpclientVersion = '4.5.3'
     poiVersion = '3.16'
     tilesVersion = '3.0.7'
+    bootstrapVersion = '3.3.7-1'
+//    thymeSecurityVersion = '3.0.2.RELEASE'
+    // thymeleaf-extras-springsecurity5 버전에 대응
+    thymeSecurityVersion = '3.0.4.RELEASE'
+    jQueryVersion = '3.2.1'
 
     // 퍼시스턴스 라이브러리
     hibernateVersion = '5.3.9.Final'
@@ -60,6 +65,7 @@ ext {
             securityConfig    : "org.springframework.security:spring-security-config:$springSecurityVersion",
             securityTaglibs   : "org.springframework.security:spring-security-taglibs:$springSecurityVersion",
             rabbit            : "org.springframework.amqp:spring-rabbit:$springAmqpVersion",
+            springSecurityTest: "org.springframework.security:spring-security-test:$springSecurityVersion",
     ]
 
     hibernate = [
@@ -85,6 +91,8 @@ ext {
             starterJta      : "org.springframework.boot:spring-boot-starter-jta-atomikos:$bootVersion",
             starterJms      : "org.springframework.boot:spring-boot-starter-artemis:$bootVersion",
             starterRabbitmq : "org.springframework.boot:spring-boot-starter-amqp:$bootVersion",
+            starterThyme    : "org.springframework.boot:spring-boot-starter-thymeleaf:$bootVersion",
+            starterSecurity : "org.springframework.boot:spring-boot-starter-security:$bootVersion",
     ]
 
     testing = [
@@ -124,6 +132,11 @@ ext {
     web = [
             tiles        : "org.apache.tiles:tiles-jsp:$tilesVersion",
             jstl         : "jstl:jstl:1.2",
+            bootstrap    : "org.webjars:bootstrap:$bootstrapVersion",
+            jQuery       : "org.webjars:jquery:$jQueryVersion",
+//            thymeSecurity: "org.thymeleaf.extras:thymeleaf-extras-springsecurity4:$thymeSecurityVersion",
+            // SpringSecurity5 버전에 대응
+            thymeSecurity: "org.thymeleaf.extras:thymeleaf-extras-springsecurity5:$thymeSecurityVersion",
             httpclient   : "org.apache.httpcomponents:httpclient:$httpclientVersion",
             servlet      : "javax:javaee-web-api:8.0",
     ]

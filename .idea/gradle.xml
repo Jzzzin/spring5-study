@@ -144,6 +144,7 @@
             <option value="$PROJECT_DIR$/ch15/boot-jmx" />
             <option value="$PROJECT_DIR$/ch15/jmx" />
             <option value="$PROJECT_DIR$/ch16" />
+            <option value="$PROJECT_DIR$/ch16/singer-webapp-boot" />
             <option value="$PROJECT_DIR$/ch16/singer-webapp-jcfg" />
             <option value="$PROJECT_DIR$/ch16/singer-webapp-xml" />
           </set>
