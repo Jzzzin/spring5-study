@@ -122,6 +122,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-jcfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/singer-webapp-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sockjs.iml" filepath="$PROJECT_DIR$/.idea/modules/sockjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sockjs-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/sockjs-cfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" filepath="$PROJECT_DIR$/.idea/modules/ch06/spring-boot-jdbc/spring-boot-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa/spring-data-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" filepath="$PROJECT_DIR$/.idea/modules/ch08/spring-data-jpa-alt/spring-data-jpa-alt.iml" />

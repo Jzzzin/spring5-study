@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : spring-study.ch17 : sockjs.war">
+    <output-path>$PROJECT_DIR$/ch17/sockjs/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="sockjs.war">
+      <element id="artifact" artifact-name="Gradle : spring-study.ch17 : sockjs.war (exploded)" />
+    </root>
+  </artifact>
+</component>
