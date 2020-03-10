@@ -148,4 +148,6 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
+include 'ch17:stomp'
+findProject(':ch17:stomp')?.name = 'stomp'
 

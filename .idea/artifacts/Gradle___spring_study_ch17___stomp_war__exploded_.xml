@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring-study.ch17 : stomp.war (exploded)">
+    <output-path>$PROJECT_DIR$/ch17/stomp/build/libs/exploded/stomp.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpDbGFzcy1QYXRoOiB0b21jYXQtd2Vic29ja2V0LWFwaS05LjAuMC5NMjIuamFyIHRvbWNhdC1lbWJlZC13ZWJzb2NrZXQtDQogOS4wLjAuTTIyLmphciBzcHJpbmctd2Vic29ja2V0LTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy13ZWJtdmMtNS4xLjguDQogUkVMRUFTRS5qYXIgc3ByaW5nLWNvbnRleHQtNS4xLjguUkVMRUFTRS5qYXIgc3ByaW5nLW1lc3NhZ2luZy01LjEuOC5SDQogRUxFQVNFLmphciBqYXZheC53ZWJzb2NrZXQtYXBpLTEuMS5qYXIgamNsLW92ZXItc2xmNGotMS43LjI1LmphciBsb2diDQogYWNrLWNsYXNzaWMtMS4yLjMuamFyIGNvbW1vbnMtbGFuZzMtMy41LmphciBqYWNrc29uLWRhdGFiaW5kLTIuOS4wLmphDQogciBqYXZhZWUtd2ViLWFwaS04LjAuamFyIGpzdGwtMS4yLmphciBzcHJpbmctYW9wLTUuMS44LlJFTEVBU0UuamFyIHNwDQogcmluZy13ZWItNS4xLjguUkVMRUFTRS5qYXIgc3ByaW5nLWJlYW5zLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy1leHByDQogZXNzaW9uLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy1jb3JlLTUuMS44LlJFTEVBU0UuamFyIHNsZjRqLWFwaS0xLjcuDQogMjUuamFyIGxvZ2JhY2stY29yZS0xLjIuMy5qYXIgamFja3Nvbi1hbm5vdGF0aW9ucy0yLjkuMC5qYXIgamFja3Nvbi1jDQogb3JlLTIuOS4wLmphciBoaWJlcm5hdGUtdmFsaWRhdG9yLTYuMC4xNi5GaW5hbC5qYXIgc3ByaW5nLWpjbC01LjEuOC5SDQogRUxFQVNFLmphciB2YWxpZGF0aW9uLWFwaS0yLjAuMS5GaW5hbC5qYXIgamJvc3MtbG9nZ2luZy0zLjMuMi5GaW5hbC5qDQogYXIgY2xhc3NtYXRlLTEuMy40Lmphcg0KDQo=</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ch17/stomp/build/libs/exploded/stomp.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="stomp/web/Web Gradle : stomp.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="stomp" />
+          <element id="dir-copy" path="$PROJECT_DIR$/ch17/stomp/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-websocket-api:9.0.0.M22" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.0.M22" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-websocket:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-messaging:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.websocket:javax.websocket-api:1.1" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.5" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.0" />
+          <element id="library" level="project" name="Gradle: javax:javaee-web-api:8.0" />
+          <element id="library" level="project" name="Gradle: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.0" />
+          <element id="library" level="project" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.16.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -150,6 +150,7 @@
             <option value="$PROJECT_DIR$/ch17" />
             <option value="$PROJECT_DIR$/ch17/sockjs" />
             <option value="$PROJECT_DIR$/ch17/sockjs-cfg" />
+            <option value="$PROJECT_DIR$/ch17/stomp" />
             <option value="$PROJECT_DIR$/ch17/websocket-api" />
             <option value="$PROJECT_DIR$/ch17/websocket-api-cfg" />
           </set>
