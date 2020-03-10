@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch18/batch/batch.iml" filepath="$PROJECT_DIR$/.idea/modules/ch18/batch/batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/batch-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/batch-cfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-autowiring/bean-autowiring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-inheritance/bean-inheritance.iml" />
