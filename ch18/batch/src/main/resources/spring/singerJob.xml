@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xmlns:batch="http://www.springframework.org/schema/batch"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/jdbc
+        http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+        http://www.springframework.org/schema/batch
+        http://www.springframework.org/schema/batch/spring-batch.xsd">
+
+    <!-- @EnableBatchProcessing 구성 -->
+    <bean id="jobLauncher" class="org.springframework.batch.core.launch.support.SimpleJobLauncher"
+          p:jobRepository-ref="jobRepository"/>
+
+    <!-- @Bean public DataSource dataSource() -->
+    <jdbc:embedded-database id="dataSource" type="H2">
+        <jdbc:script location="classpath:/org/springframework/batch/core/schema-h2.sql"/>
+        <jdbc:script location="classpath:support/singer.sql"/>
+    </jdbc:embedded-database>
+
+    <!-- <batch:job-repository> 에서 사용하는 transactionManager 구성 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager"
+          p:dataSource-ref="dataSource"/>
+
+    <!-- <batch:job> 에서 사용할 job-repository 구성 -->
+    <batch:job-repository id="jobRepository"/>
+
+    <!-- @Bean public Job job() + @Bean protected Step step1() -->
+    <batch:job id="singerJob">
+        <batch:step id="step1">
+            <batch:tasklet>
+                <batch:listeners>
+                    <batch:listener ref="stepExecutionStatsListener"/>
+                </batch:listeners>
+                <batch:chunk reader="itemReader" processor="itemProcessor" writer="itemWriter"
+                             commit-interval="10"/>
+            </batch:tasklet>
+            <batch:fail on="FAILED"/>
+            <batch:end on="*"/>
+        </batch:step>
+    </batch:job>
+
+    <!-- <batch:job> 에서 사용할 <batch:listeners> 구성 -->
+    <bean id="stepExecutionStatsListener" class="ch18.StepExecutionStatsListener"/>
+
+    <!-- <batch:job> 에서 사용할 batch:chunk reader 구성 -->
+    <bean id="itemReader" class="org.springframework.batch.item.file.FlatFileItemReader">
+        <property name="resource" value="classpath:support/test-data.csv"/>
+        <property name="lineMapper">
+            <bean class="org.springframework.batch.item.file.mapping.DefaultLineMapper">
+                <property name="lineTokenizer">
+                    <bean class="org.springframework.batch.item.file.transform.DelimitedLineTokenizer">
+                        <property name="names" value="firstName, lastName, song"/>
+                    </bean>
+                </property>
+                <property name="fieldSetMapper">
+                    <bean class="org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper">
+                        <property name="targetType" value="ch18.Singer"/>
+                    </bean>
+                </property>
+            </bean>
+        </property>
+    </bean>
+
+    <!-- <batch:job> 에서 사용할 batch:chunk processor 구성 -->
+    <bean id="itemProcessor" class="ch18.SingerItemProcessor"/>
+
+    <!-- <batch:job> 에서 사용할 batch:chunk writer 구성 -->
+    <bean id="itemWriter" class="org.springframework.batch.item.database.JdbcBatchItemWriter">
+        <property name="itemSqlParameterSourceProvider">
+            <bean class="org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider"/>
+        </property>
+        <property name="sql"
+                  value="INSERT INTO singer (first_name, last_name, song) VALUES (:firstName, :lastName, :song)"/>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+</beans>

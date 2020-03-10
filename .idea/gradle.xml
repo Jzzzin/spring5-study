@@ -154,6 +154,8 @@
             <option value="$PROJECT_DIR$/ch17/stomp-cfg" />
             <option value="$PROJECT_DIR$/ch17/websocket-api" />
             <option value="$PROJECT_DIR$/ch17/websocket-api-cfg" />
+            <option value="$PROJECT_DIR$/ch18" />
+            <option value="$PROJECT_DIR$/ch18/batch" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

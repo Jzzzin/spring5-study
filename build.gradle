@@ -5,6 +5,7 @@ ext {
     springDataVersion = '2.1.5.RELEASE'
     springAmqpVersion = '2.1.0.RELEASE'
     springSecurityVersion = '5.1.4.RELEASE'
+    springBatchVersion = '4.1.1.RELEASE'
 
     // 로그 라이브러리
     slf4jVersion = '1.7.25'
@@ -69,6 +70,7 @@ ext {
             springSecurityTest: "org.springframework.security:spring-security-test:$springSecurityVersion",
             webSocket         : "org.springframework:spring-websocket:$springVersion",
             messaging         : "org.springframework:spring-messaging:$springVersion",
+            batchCore         : "org.springframework.batch:spring-batch-core:$springBatchVersion",
     ]
 
     hibernate = [
@@ -151,7 +153,10 @@ ext {
             mysql : "mysql:mysql-connector-java:$mysqlVersion",
             derby : "org.apache.derby:derby:$derbyVersion",
             dbcp2 : "org.apache.commons:commons-dbcp2:$dbcpVersion",
-            h2    : "com.h2database:h2:$h2Version"
+            h2    : "com.h2database:h2:$h2Version",
+            // JSR-352 모듈에서 필요함
+            hsqldb: "org.hsqldb:hsqldb:2.4.0",
+            dbcp  : "commons-dbcp:commons-dbcp:1.4",
     ]
 }
 
