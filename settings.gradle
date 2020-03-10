@@ -140,6 +140,8 @@ include 'ch17:websocket-api'
 include 'ch17:websocket-api-cfg'
 include 'ch17:sockjs'
 include 'ch17:sockjs-cfg'
+include 'ch17:stomp'
+include 'ch17:stomp-cfg'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->
@@ -148,6 +150,3 @@ rootProject.children.each { project ->
     assert project.buildFile.exists()
     assert project.buildFile.isFile()
 }
-include 'ch17:stomp'
-findProject(':ch17:stomp')?.name = 'stomp'
-

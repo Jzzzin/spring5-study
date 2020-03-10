@@ -14,11 +14,11 @@
 
     <mvc:annotation-driven/>
 
+    <context:component-scan base-package="ch17"/>
+
     <mvc:default-servlet-handler/>
 
     <mvc:view-controller path="/" view-name="/static/index.html"/>
-
-    <context:component-scan base-package="ch17"/>
 
     <websocket:message-broker application-destination-prefix="/app">
         <websocket:stomp-endpoint path="/ws">

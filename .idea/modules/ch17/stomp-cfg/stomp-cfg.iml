@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":ch17:stomp" external.linked.project.path="$MODULE_DIR$/../../ch17/stomp" external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="spring-study.ch17" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":ch17:stomp-cfg" external.linked.project.path="$MODULE_DIR$/../../../../ch17/stomp-cfg" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="spring-study.ch17" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration />
     </facet>
-    <facet type="web" name="Web Gradle : stomp.war">
+    <facet type="web" name="Web Gradle : stomp2.war">
       <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../ch17/stomp/src/main/webapp/WEB-INF/web.xml" />
-        </descriptors>
         <webroots>
-          <root url="file://C:\Workspace\spring-study\ch17\stomp\src\main\webapp" relative="/" />
+          <root url="file://C:\Workspace\spring-study\ch17\stomp-cfg\src\main\webapp" relative="/" />
         </webroots>
         <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../ch17/stomp/src/main/java" />
-          <root url="file://$MODULE_DIR$/../../ch17/stomp/src/main/resources" />
+          <root url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/main/java" />
+          <root url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/main/resources" />
         </sourceRoots>
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output url="file://$MODULE_DIR$/../../ch17/stomp/out/production/classes" />
-    <output-test url="file://$MODULE_DIR$/../../ch17/stomp/out/test/classes" />
+    <output url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/out/production/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/out/test/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../ch17/stomp">
-      <sourceFolder url="file://$MODULE_DIR$/../../ch17/stomp/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ch17/stomp/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ch17/stomp/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../ch17/stomp/src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ch17/stomp/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ch17/stomp/build" />
-      <excludeFolder url="file://$MODULE_DIR$/../../ch17/stomp/out" />
+    <content url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/src/test/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../ch17/stomp-cfg/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
