@@ -1,0 +1,10 @@
+dependencies {
+    compile db.mysql, db.dbcp2
+}
+jar {
+    manifest {
+        attributes(
+                "Main-Class"         : "ch18.SingerJobResults",
+                "Class-Path"         : configurations.compile.collect { it.getName() }.join(' '))
+    }
+}

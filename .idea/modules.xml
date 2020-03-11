@@ -153,6 +153,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xd.iml" filepath="$PROJECT_DIR$/.idea/modules/xd.iml" />
     </modules>
   </component>
 </project>
