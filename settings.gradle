@@ -147,6 +147,7 @@ include 'ch18:batch'
 include 'ch18:batch-cfg'
 include 'ch18:batch-jsr352'
 include 'ch18:batch-boot'
+include 'ch18:integration-cfg'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->

@@ -6,6 +6,7 @@ ext {
     springAmqpVersion = '2.1.0.RELEASE'
     springSecurityVersion = '5.1.4.RELEASE'
     springBatchVersion = '4.1.1.RELEASE'
+    springIntegrationVersion = '5.1.2.RELEASE'
 
     // 로그 라이브러리
     slf4jVersion = '1.7.25'
@@ -71,6 +72,8 @@ ext {
             webSocket         : "org.springframework:spring-websocket:$springVersion",
             messaging         : "org.springframework:spring-messaging:$springVersion",
             batchCore         : "org.springframework.batch:spring-batch-core:$springBatchVersion",
+            batchIntegration  : "org.springframework.batch:spring-batch-integration:$springBatchVersion",
+            integrationFile   : "org.springframework.integration:spring-integration-file:$springIntegrationVersion",
     ]
 
     hibernate = [
