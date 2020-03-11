@@ -98,6 +98,7 @@ ext {
             starterRabbitmq : "org.springframework.boot:spring-boot-starter-amqp:$bootVersion",
             starterThyme    : "org.springframework.boot:spring-boot-starter-thymeleaf:$bootVersion",
             starterSecurity : "org.springframework.boot:spring-boot-starter-security:$bootVersion",
+            starterBatch    : "org.springframework.boot:spring-boot-starter-batch:$bootVersion",
     ]
 
     testing = [

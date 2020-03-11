@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-task.iml" filepath="$PROJECT_DIR$/.idea/modules/base-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/base-test.iml" filepath="$PROJECT_DIR$/.idea/modules/base-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch18/batch/batch.iml" filepath="$PROJECT_DIR$/.idea/modules/ch18/batch/batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/batch-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/batch-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/batch-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/batch-cfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/batch-jsr352.iml" filepath="$PROJECT_DIR$/.idea/modules/batch-jsr352.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/bean-aliases/bean-aliases.iml" />
