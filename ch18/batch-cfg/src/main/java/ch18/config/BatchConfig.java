@@ -89,7 +89,7 @@ public class BatchConfig {
         return itemReader;
     }
 
-    // <=> <bean id="itemWriter"
+    // <=> <bean id="itemWriter" .../>
     @Bean
     public ItemWriter itemWriter() {
         JdbcBatchItemWriter<Singer> itemWriter = new JdbcBatchItemWriter<>();

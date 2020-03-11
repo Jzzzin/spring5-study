@@ -157,6 +157,7 @@
             <option value="$PROJECT_DIR$/ch18" />
             <option value="$PROJECT_DIR$/ch18/batch" />
             <option value="$PROJECT_DIR$/ch18/batch-cfg" />
+            <option value="$PROJECT_DIR$/ch18/batch-jsr352" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
