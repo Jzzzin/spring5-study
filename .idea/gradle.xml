@@ -161,6 +161,8 @@
             <option value="$PROJECT_DIR$/ch18/batch-jsr352" />
             <option value="$PROJECT_DIR$/ch18/integration" />
             <option value="$PROJECT_DIR$/ch18/integration-cfg" />
+            <option value="$PROJECT_DIR$/ch18/webflux" />
+            <option value="$PROJECT_DIR$/ch18/webflux-boot" />
             <option value="$PROJECT_DIR$/ch18/xd" />
           </set>
         </option>

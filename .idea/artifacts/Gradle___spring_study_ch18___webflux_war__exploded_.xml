@@ -1,0 +1,81 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring-study.ch18 : webflux.war (exploded)">
+    <output-path>$PROJECT_DIR$/ch18/webflux/build/libs/exploded/webflux.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQpDbGFzcy1QYXRoOiBzcHJpbmctd2ViZmx1eC01LjEuOC5SRUxFQVNFLmphciBzcHJpbmctZGF0YS1qcGEtMi4xLjUuUkVMDQogRUFTRS5qYXIgaDItMS40LjE5NC5qYXIgaGliZXJuYXRlLWVudGl0eW1hbmFnZXItNS4zLjkuRmluYWwuamFyIHJlYWN0DQogb3ItbmV0dHktMC44LjUuUkVMRUFTRS5qYXIgdG9tY2F0LWVtYmVkLWNvcmUtOS4wLjAuTTI1LmphciBqYWNrc29uLWRhDQogdGFiaW5kLTIuOS4wLmphciBqY2wtb3Zlci1zbGY0ai0xLjcuMjUuamFyIGxvZ2JhY2stY2xhc3NpYy0xLjIuMy5qYXIgDQogdHJhbnNhY3Rpb25zLWhpYmVybmF0ZTQtNC4wLjQuamFyIHJlYWN0b3ItY29yZS0zLjIuMTAuUkVMRUFTRS5qYXIgc3ByDQogaW5nLXdlYi01LjEuOC5SRUxFQVNFLmphciBzcHJpbmctZGF0YS1jb21tb25zLTIuMS41LlJFTEVBU0UuamFyIHNwcmluDQogZy1vcm0tNS4xLjUuUkVMRUFTRS5qYXIgc3ByaW5nLWNvbnRleHQtNS4xLjUuUkVMRUFTRS5qYXIgc3ByaW5nLWFvcC01DQogLjEuNS5SRUxFQVNFLmphciBzcHJpbmctamRiYy01LjEuNS5SRUxFQVNFLmphciBzcHJpbmctdHgtNS4xLjUuUkVMRUFTDQogRS5qYXIgc3ByaW5nLWJlYW5zLTUuMS44LlJFTEVBU0UuamFyIHNwcmluZy1leHByZXNzaW9uLTUuMS41LlJFTEVBU0UuDQogamFyIHNwcmluZy1jb3JlLTUuMS44LlJFTEVBU0UuamFyIGFzcGVjdGpydC0xLjkuMi5qYXIgc2xmNGotYXBpLTEuNy4yDQogNS5qYXIgaGliZXJuYXRlLWNvcmUtNS4zLjkuRmluYWwuamFyIGhpYmVybmF0ZS1jb21tb25zLWFubm90YXRpb25zLTUuDQogMC40LkZpbmFsLmphciBqYm9zcy1sb2dnaW5nLTMuMy4yLkZpbmFsLmphciBkb200ai0yLjEuMS5qYXIgamF2YXgucGVyDQogc2lzdGVuY2UtYXBpLTIuMi5qYXIgYnl0ZS1idWRkeS0xLjkuNS5qYXIgamJvc3MtdHJhbnNhY3Rpb24tYXBpXzEuMl9zDQogcGVjLTEuMS4xLkZpbmFsLmphciBuZXR0eS1jb2RlYy1odHRwMi00LjEuMzMuRmluYWwuamFyIG5ldHR5LWhhbmRsZXItDQogcHJveHktNC4xLjMzLkZpbmFsLmphciBuZXR0eS1jb2RlYy1odHRwLTQuMS4zMy5GaW5hbC5qYXIgbmV0dHktaGFuZGxlDQogci00LjEuMzMuRmluYWwuamFyIG5ldHR5LXRyYW5zcG9ydC1uYXRpdmUtZXBvbGwtNC4xLjMzLkZpbmFsLWxpbnV4LXg4DQogNl82NC5qYXIgamFja3Nvbi1hbm5vdGF0aW9ucy0yLjkuMC5qYXIgamFja3Nvbi1jb3JlLTIuOS4wLmphciBsb2diYWNrDQogLWNvcmUtMS4yLjMuamFyIHRyYW5zYWN0aW9ucy1qZGJjLTQuMC40LmphciB0cmFuc2FjdGlvbnMtanRhLTQuMC40LmphDQogciByZWFjdGl2ZS1zdHJlYW1zLTEuMC4yLmphciBzcHJpbmctamNsLTUuMS44LlJFTEVBU0UuamFyIGphdmFzc2lzdC0zDQogLjIzLjEtR0EuamFyIGFudGxyLTIuNy43LmphciBqYW5kZXgtMi4wLjUuRmluYWwuamFyIGNsYXNzbWF0ZS0xLjMuNC5qDQogYXIgamF2YXguYWN0aXZhdGlvbi1hcGktMS4yLjAuamFyIG5ldHR5LWNvZGVjLXNvY2tzLTQuMS4zMy5GaW5hbC5qYXIgDQogbmV0dHktY29kZWMtNC4xLjMzLkZpbmFsLmphciBuZXR0eS10cmFuc3BvcnQtbmF0aXZlLXVuaXgtY29tbW9uLTQuMS4zDQogMy5GaW5hbC5qYXIgbmV0dHktdHJhbnNwb3J0LTQuMS4zMy5GaW5hbC5qYXIgbmV0dHktYnVmZmVyLTQuMS4zMy5GaW5hDQogbC5qYXIgbmV0dHktcmVzb2x2ZXItNC4xLjMzLkZpbmFsLmphciBuZXR0eS1jb21tb24tNC4xLjMzLkZpbmFsLmphciB0DQogcmFuc2FjdGlvbnMtNC4wLjQuamFyIGF0b21pa29zLXV0aWwtNC4wLjQuamFyIHRyYW5zYWN0aW9ucy1hcGktNC4wLjQuDQogamFyDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ch18/webflux/build/libs/exploded/webflux.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webflux/web/Web Gradle : webflux.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webflux" />
+          <element id="dir-copy" path="$PROJECT_DIR$/ch18/webflux/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webflux:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.194" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.3.9.Final" />
+          <element id="library" level="project" name="Gradle: io.projectreactor.netty:reactor-netty:0.8.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M25" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.0" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.2.3" />
+          <element id="library" level="project" name="Gradle: com.atomikos:transactions-hibernate4:4.0.4" />
+          <element id="library" level="project" name="Gradle: io.projectreactor:reactor-core:3.2.10.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:2.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:5.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.9.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.3.9.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.4.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Gradle: org.dom4j:dom4j:2.1.1" />
+          <element id="library" level="project" name="Gradle: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.9.5" />
+          <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http2:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler-proxy:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-http:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-handler:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport-native-epoll:4.1.33.Final:linux-x86_64" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.0" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.2.3" />
+          <element id="library" level="project" name="Gradle: com.atomikos:transactions-jdbc:4.0.4" />
+          <element id="library" level="project" name="Gradle: com.atomikos:transactions-jta:4.0.4" />
+          <element id="library" level="project" name="Gradle: org.reactivestreams:reactive-streams:1.0.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jcl:5.1.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.23.1-GA" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.5.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.4" />
+          <element id="library" level="project" name="Gradle: javax.activation:javax.activation-api:1.2.0" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec-socks:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-codec:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-transport:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-buffer:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-resolver:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: io.netty:netty-common:4.1.33.Final" />
+          <element id="library" level="project" name="Gradle: com.atomikos:transactions:4.0.4" />
+          <element id="library" level="project" name="Gradle: com.atomikos:atomikos-util:4.0.4" />
+          <element id="library" level="project" name="Gradle: com.atomikos:transactions-api:4.0.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

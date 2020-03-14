@@ -150,6 +150,8 @@ include 'ch18:batch-boot'
 include 'ch18:integration-cfg'
 include 'ch18:integration'
 include 'ch18:xd'
+include 'ch18:webflux'
+include 'ch18:webflux-boot'
 
 // 모듈에 그레이들 구성 파일이 있는지 확인한다
 rootProject.children.each { project ->

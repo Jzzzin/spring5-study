@@ -74,6 +74,7 @@ ext {
             batchCore         : "org.springframework.batch:spring-batch-core:$springBatchVersion",
             batchIntegration  : "org.springframework.batch:spring-batch-integration:$springBatchVersion",
             integrationFile   : "org.springframework.integration:spring-integration-file:$springIntegrationVersion",
+            webflux           : "org.springframework:spring-webflux:$springVersion"
     ]
 
     hibernate = [
@@ -102,6 +103,7 @@ ext {
             starterThyme    : "org.springframework.boot:spring-boot-starter-thymeleaf:$bootVersion",
             starterSecurity : "org.springframework.boot:spring-boot-starter-security:$bootVersion",
             starterBatch    : "org.springframework.boot:spring-boot-starter-batch:$bootVersion",
+            starterWebflux  : "org.springframework.boot:spring-boot-starter-webflux:$bootVersion"
     ]
 
     testing = [
@@ -151,6 +153,11 @@ ext {
             httpclient   : "org.apache.httpcomponents:httpclient:$httpclientVersion",
             websocket    : "javax.websocket:javax.websocket-api:1.1",
             servlet      : "javax:javaee-web-api:8.0",
+    ]
+
+    react = [
+            projReactorIpc: "io.projectreactor.netty:reactor-netty:0.8.5.RELEASE",
+            tomcatEmbedded: "org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M25",
     ]
 
     db = [

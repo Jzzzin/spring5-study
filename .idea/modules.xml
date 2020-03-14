@@ -151,6 +151,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-programmatic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/transactions-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/transactions-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webflux.iml" filepath="$PROJECT_DIR$/.idea/modules/webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/webflux-boot.iml" filepath="$PROJECT_DIR$/.idea/modules/webflux-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" filepath="$PROJECT_DIR$/.idea/modules/websocket-api-cfg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/xd.iml" filepath="$PROJECT_DIR$/.idea/modules/xd.iml" />
