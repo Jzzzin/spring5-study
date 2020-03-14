@@ -2,12 +2,13 @@
 package ch18;
 
 import ch18.entities.Singer;
-import ch18.repos.ReactiveSingerRepo;
+import ch18.repos.Rx2SingerRepo;
+import io.reactivex.Flowable;
+import io.reactivex.Single;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,45 +18,43 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-import reactor.util.function.Tuple2;
 
-import java.time.Duration;
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 
-// SingerApplication, Rx2ReactiveApplication 을 모두 주석 처리 한 후 실행한다.
+// SingerApplication, ReactiveApplication 을 모두 주석 처리 한 후 실행한다.
 @SpringBootApplication
 @RestController
-public class ReactiveApplication {
+public class Rx2ReactiveApplication {
 
-    private static Logger logger = LoggerFactory.getLogger(ReactiveApplication.class);
+    private static Logger logger = LoggerFactory.getLogger(Rx2ReactiveApplication.class);
 
     @Autowired
-    ReactiveSingerRepo reactiveSingerRepo;
+    Rx2SingerRepo rx2SingerRepo;
 
     @GetMapping(value = "/all", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
-    public Flux<Singer> oneByOne() {
-        Flux<Singer> singers = reactiveSingerRepo.findAll();
-        Flux<Long> periodFlux = Flux.interval(Duration.ofSeconds(2));
-        return Flux.zip(singers, periodFlux).map(Tuple2::getT1);
+    public Flowable<Singer> all() {
+        Flowable<Singer> singers = rx2SingerRepo.findAll();
+        Flowable<Long> periodFlowable = Flowable.interval(2, TimeUnit.SECONDS);
+        return singers.zipWith(periodFlowable, (singer, aLong) -> {
+            Thread.sleep(aLong);
+            return singer;
+        });
     }
 
     @GetMapping(value = "/one/{id}")
-    public Mono<Singer> one(@PathVariable Long id) {
-        return reactiveSingerRepo.findById(id);
+    public Single<Singer> one(@PathVariable Long id) {
+        return rx2SingerRepo.findById(id);
     }
 
     public static void main(String... args) throws Exception {
-        ConfigurableApplicationContext ctx =
-//                SpringApplication.run(ReactiveApplication.class, args);
-                new SpringApplicationBuilder(ReactiveApplication.class)
-                        .properties(
-                                new HashMap<String, Object>() {{
-                                    put("server.port", "8080");
-                                    put("spring.jpa.hibernate.ddl-auto", "create-drop");
-                                }}
-                        ).run(args);
+        ConfigurableApplicationContext ctx = new SpringApplicationBuilder(Rx2ReactiveApplication.class)
+                .properties(
+                        new HashMap<String, Object>() {{
+                            put("server.port", "8080");
+                            put("spring.jpa.hibernate.ddl-auto", "create-drop");
+                        }}
+                ).run(args);
         assert (ctx != null);
         logger.info("애플리케이션이 시작됨...");
         System.in.read();

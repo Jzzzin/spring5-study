@@ -15,9 +15,7 @@ import reactor.core.publisher.Mono;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import static org.junit.jupiter.api.Assertions.assertAll;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
 // SingerApplication 실행 후 테스트 해야 함
 public class AnotherSingerHandlerTest {
@@ -27,7 +25,7 @@ public class AnotherSingerHandlerTest {
     @BeforeAll
     public static void init() {
         client = WebTestClient
-                .bindToServer()
+                .bindToServer() // 실제 실행 중인 서버에서 테스트 함
                 .baseUrl("http://localhost:8080")
                 .build();
     }

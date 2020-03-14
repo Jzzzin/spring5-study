@@ -109,6 +109,7 @@ ext {
     testing = [
             junit       : "junit:junit:$junitVersion",
             junit5Engine: "org.junit.jupiter:junit-jupiter-engine:$junit5Version",
+            junit5Runner: "org.junit.platform:junit-platform-runner:1.4.2",
             mockito     : "org.mockito:mockito-all:$mockitoVersion",
             jmock       : "org.jmock:jmock:2.8.2",
             dbunit      : "org.dbunit:dbunit:$dbunitVersion"
@@ -158,6 +159,8 @@ ext {
     react = [
             projReactorIpc: "io.projectreactor.netty:reactor-netty:0.8.5.RELEASE",
             tomcatEmbedded: "org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M25",
+            // rxjava 추가
+            rxjava        : "io.reactivex.rxjava2:rxjava:2.1.9",
     ]
 
     db = [

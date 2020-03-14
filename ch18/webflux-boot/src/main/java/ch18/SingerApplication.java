@@ -24,7 +24,7 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
 import static org.springframework.web.reactive.function.server.RouterFunctions.route;
 import static org.springframework.web.reactive.function.server.ServerResponse.ok;
 
-// ReactiveApplication 을 모두 주석 처리한 다음 실행한다
+// ReactiveApplication, Rx2ReactiveApplication 을 모두 주석 처리한 다음 실행한다
 @SpringBootApplication
 public class SingerApplication {
 

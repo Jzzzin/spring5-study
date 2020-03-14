@@ -2,9 +2,11 @@ package ch18.test;
 
 import org.junit.experimental.ParallelComputer;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.Computer;
 import org.junit.runner.JUnitCore;
 
 public class ParallelTests {
+
     @Test
     void executeTwoInParallel() {
         final Class<?>[] classes = {
@@ -12,5 +14,14 @@ public class ParallelTests {
         };
 
         JUnitCore.runClasses(new ParallelComputer(true, true), classes);
+    }
+
+    @Test
+    void executeTwoLinear() {
+        final Class<?>[] classes = {
+                IntegrationOneTest.class, IntegrationTwoTest.class
+        };
+
+        JUnitCore.runClasses(new Computer(), classes);
     }
 }

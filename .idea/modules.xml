@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-jta.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-jta.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-rest.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/boot-simple/boot-simple.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/boot-simple/boot-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/boot-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/boot-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch04/boot-web/boot-web.iml" filepath="$PROJECT_DIR$/.idea/modules/ch04/boot-web/boot-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch03/cdi/cdi.iml" filepath="$PROJECT_DIR$/.idea/modules/ch03/cdi/cdi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch05/cflow-pointcuts/cflow-pointcuts.iml" filepath="$PROJECT_DIR$/.idea/modules/ch05/cflow-pointcuts/cflow-pointcuts.iml" />

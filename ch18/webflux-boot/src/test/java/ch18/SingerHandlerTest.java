@@ -31,6 +31,7 @@ public class SingerHandlerTest {
     public static final String HOST = "localhost";
     public static final int PORT = 8080;
 
+    // 서버가 실행 중일 때 사용
     private static ExchangeFunction exchange;
 
     @BeforeAll

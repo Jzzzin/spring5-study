@@ -159,6 +159,7 @@
             <option value="$PROJECT_DIR$/ch18/batch-boot" />
             <option value="$PROJECT_DIR$/ch18/batch-cfg" />
             <option value="$PROJECT_DIR$/ch18/batch-jsr352" />
+            <option value="$PROJECT_DIR$/ch18/boot-tests" />
             <option value="$PROJECT_DIR$/ch18/integration" />
             <option value="$PROJECT_DIR$/ch18/integration-cfg" />
             <option value="$PROJECT_DIR$/ch18/webflux" />
