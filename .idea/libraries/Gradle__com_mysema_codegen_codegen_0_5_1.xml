@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mysema.codegen:codegen:0.5.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysema.codegen/codegen/0.5.1/dd473768adf698f978e2572c04b3abaf794a76f0/codegen-0.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mysema.codegen/codegen/0.5.1/226e95c1ebd85f5c84b6e8357c9d575092757b76/codegen-0.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
